@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 """
 postman.py
 ==========
@@ -29,15 +31,73 @@ class Linker:
         url = "https://api.github.com/repos/%s/%s" % (self.org, name)
         return url
 
-    def languages(self, name):
+    def repo_languages(self, name):
         url = "https://api.github.com/repos/%s/%s/languages" % (self.org, name)
         return url
 
-    def stats(self, name):
+    def repo_stats(self, name):
         url = "https://api.github.com/repos/%s/%s/stats/participation" % (self.org, name)
+        return url
 
 
 class Postman:
 
     def __init__(self):
-        pass
+        self.linker = Linker()
+
+    def update(self, org):
+        self.linker.org = org
+
+    def address(self, section, **kwargs):
+        default_name = ''
+        default_url = ''
+
+        if 'name' in kwargs.keys():
+            default_name = kwargs['name']
+
+        if 'url' in kwargs.keys():
+            default_url = kwargs['url']
+
+        url = {
+            'info': self.linker.info(),
+            'repo_list': self.linker.repo_list(),
+            'member_list': self.linker.member_list(),
+            'repo': self.linker.repo(default_name),
+            'repo_languages': self.linker.repo_languages(default_name),
+            'repo_stats': self.linker.repo_stats(default_name),
+            'url': default_url
+        }.get(section)
+
+        if 'page' in kwargs.keys():
+            url += "?page=%d" % (kwargs['page'])
+
+        return url
+
+    def request(self, section, **kwargs):
+        url = self.url(section, **kwargs)
+        response = requests.get(url)
+
+        # return 'requests.models.Response' object
+        if (response.status_code == requests.codes.ok):
+            return response
+        # the response data hasn't been cached, waiting a little
+        elif (response.status_code == requests.codes.accepted):
+            time.sleep(3)
+            return self.request(url)
+        # none of the favorable case
+        else:
+            print "Missed URL : %s" % (url)
+            return response
+
+"""
+p = Postman()
+p.update('sdslabs')
+print p.url('info')
+print p.url('repo_list')
+print p.url('member_list')
+print p.url('repo', name='play')
+print p.url('repo_languages', name='play')
+print p.url('repo_stats', name='play')
+print p.url('url', url = 'https://api.github.com')
+print p.url('repo_list', name = 'play', page = 3)
+"""
