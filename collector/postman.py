@@ -8,6 +8,7 @@ This module helps the data collection process by interacting with GitHub API.
 """
 
 import requests
+from organization import Organization
 
 
 class Linker:
@@ -74,7 +75,7 @@ class Postman:
         return url
 
     def request(self, section, **kwargs):
-        url = self.url(section, **kwargs)
+        url = self.address(section, **kwargs)
         response = requests.get(url)
 
         # return 'requests.models.Response' object
@@ -88,16 +89,3 @@ class Postman:
         else:
             print "Missed URL : %s" % (url)
             return response
-
-"""
-p = Postman()
-p.update('sdslabs')
-print p.url('info')
-print p.url('repo_list')
-print p.url('member_list')
-print p.url('repo', name='play')
-print p.url('repo_languages', name='play')
-print p.url('repo_stats', name='play')
-print p.url('url', url = 'https://api.github.com')
-print p.url('repo_list', name = 'play', page = 3)
-"""

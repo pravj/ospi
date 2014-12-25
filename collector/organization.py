@@ -17,13 +17,13 @@ class Organization:
         self.postman = postman
 
         self.name = name
-        self.repos = None
-        self.members = None
+        self.repos = 0
+        self.members = 0
         self.created = None
         self.updated = None
         self.repo_list = []
 
-        postman.update(self.name)
+        self.postman.update(self.name)
 
     def write_data(self):
         data_string = "%s, %d, %d, %s, %s" % (
@@ -33,9 +33,9 @@ class Organization:
             f.write(data_string)
 
     def org_info(self):
-        response = postman.request('info')
+        response = self.postman.request('info')
 
-        if (response.status_code == requests.codes_ok):
+        if (response.status_code == requests.codes.ok):
             data = response.json()
 
             self.repos = data['public_repos']
@@ -43,10 +43,23 @@ class Organization:
             self.updated = data['updated_at']
 
             self.repo_info()
-            self.members_info()
+            self.member_info()
 
-    def repo_info(self):
-        response = postman.request('repo_list')
+    def repo_info(self, attempt = 1):
+        response = self.postman.request('repo_list', page = attempt)
 
-        if (response.status_code == requests.codes_ok):
-            pass
+        if (response.status_code == requests.codes.ok):
+            if (len(response.json()) != 0):
+                for repo in response.json():
+                    self.repo_list.append(repo['name'])
+
+                self.repo_info(attempt = attempt + 1)
+
+    def member_info(self, attempt = 1):
+        response = self.postman.request('member_list', page = attempt)
+
+        if (response.status_code == requests.codes.ok):
+            if (len(response.json()) != 0):
+                self.members += len(response.json())
+
+                self.member_info(attempt = attempt + 1)
