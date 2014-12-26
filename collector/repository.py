@@ -15,14 +15,15 @@ class Repository:
         self.name = name
         self.org = org
 
-        self.is_fork = False
+        self.is_fork = 0
         self.stars = 0
         self.forks = 0
         self.language = None
         self.description = None
 
     def write_data(self):
-        data_string = "%s, %s, %s, %s, %d, %d" % (self.name, self.org.name, self.is_fork, self.language, self.stars, self.forks)
+        data_string = "%s, %s, %d, %s, %d, %d" % (
+            self.name, self.org.name, self.is_fork, self.language, self.stars, self.forks)
 
         with open() as f:
             f.write(data_string)
@@ -33,7 +34,7 @@ class Repository:
         if (response.status_code == requests.codes.ok):
             data = response.json()
 
-            self.is_fork = data['fork']
+            self.is_fork = 1 if data['fork'] else 0
             self.stars = data['stargazers_count']
             self.forks = data['forks_count']
             self.language = data['language']
