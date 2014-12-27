@@ -17,14 +17,18 @@ class Timeline:
         self.is_fork = is_fork
 
         self.created = created
-        self.week_count = []
-
-    def initialize(self):
         self.week_count = [0 for i in range(52)]
+        self.fork_work = 0
 
     def write_data(self):
         with open() as f:
             f.write()
+
+        if (self.is_fork):
+            self.fork_work = self.fork_info()
+
+            with open() as f:
+                f.write()
 
     def filter_activity(self):
         index = 0
@@ -52,3 +56,6 @@ class Timeline:
                     self.week_count[i] = commits[i]
             else:
                 self.week_count = [commit for commit in commits]
+
+    def fork_info(self):
+        return sum(self.week_count)
