@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 """
-postman.py
+ospi/collector/postman.py
 ==========
 
 This module helps the data collection process by interacting with GitHub API.

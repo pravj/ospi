@@ -1,5 +1,5 @@
 """
-repository.py
+ospi/collector/repository.py
 =============
 
 This module handels obtaining and managing repository information.
@@ -25,7 +25,7 @@ class Repository:
 
     def write_data(self):
         data_string = "%s, %s, %d, %s, %d, %d\n" % (
-            self.name, self.org.name, self.is_fork, self.language, self.stars, self.forks)
+            self.org.name, self.name, self.is_fork, self.language, self.stars, self.forks)
 
         file_path = os.path.join(os.path.dirname(__file__), self.data_file)
 

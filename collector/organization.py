@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 """
-organization.py
+ospi/collector/organization.py
 ===============
 
 This module handles obtaining and managing organization information.
@@ -20,7 +20,6 @@ class Organization:
         self.repos = 0
         self.members = 0
         self.created = None
-        self.updated = None
         self.repo_list = []
 
         self.data_file = '../data/organizations.csv'
@@ -28,8 +27,8 @@ class Organization:
         self.postman.update(self.name)
 
     def write_data(self):
-        data_string = "%s, %d, %d, %s, %s\n" % (
-            self.name, self.repos, self.members, self.created, self.updated)
+        data_string = "%s, %d, %d, %s\n" % (
+            self.name, self.repos, self.members, self.created)
 
         file_path = os.path.join(os.path.dirname(__file__), self.data_file)
 

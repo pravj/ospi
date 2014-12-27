@@ -1,5 +1,5 @@
 """
-timeline.py
+ospi/collector/timeline.py
 ===========
 
 This module handles obtaining and managing organization's timeline stats.
