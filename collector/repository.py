@@ -21,11 +21,15 @@ class Repository:
         self.language = None
         self.description = None
 
+        self.data_file = '../data/repositories.csv'
+
     def write_data(self):
-        data_string = "%s, %s, %d, %s, %d, %d" % (
+        data_string = "%s, %s, %d, %s, %d, %d\n" % (
             self.name, self.org.name, self.is_fork, self.language, self.stars, self.forks)
 
-        with open() as f:
+        file_path = os.path.join(os.path.dirname(__file__), self.data_file)
+
+        with open(os.path.abspath(file_path), 'w') as f:
             f.write(data_string)
 
     def repo_info(self):

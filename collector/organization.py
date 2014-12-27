@@ -23,13 +23,17 @@ class Organization:
         self.updated = None
         self.repo_list = []
 
+        self.data_file = '../data/organizations.csv'
+
         self.postman.update(self.name)
 
     def write_data(self):
-        data_string = "%s, %d, %d, %s, %s" % (
+        data_string = "%s, %d, %d, %s, %s\n" % (
             self.name, self.repos, self.members, self.created, self.updated)
 
-        with open() as f:
+        file_path = os.path.join(os.path.dirname(__file__), self.data_file)
+
+        with open(os.path.abspath(file_path), 'w') as f:
             f.write(data_string)
 
     def org_info(self):

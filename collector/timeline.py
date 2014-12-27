@@ -18,17 +18,28 @@ class Timeline:
 
         self.created = created
         self.week_count = [0 for i in range(52)]
-        self.fork_work = 0
+
+        self.data_file_t = '../data/timeline.csv'
+        self.data_file_f = '../data/forked_repo_stats.csv'
 
     def write_data(self):
-        with open() as f:
-            f.write()
+        data_string = "%s, %s, %s\n" % (
+            self.org.name, self.name, ", ".join([str(wc) for wc in self.week_count]))
+
+        t_file_path = os.path.join(os.path.dirname(__file__), self.data_file_t)
+
+        with open(os.path.abspath(t_file_path), 'w') as f:
+            f.write(data_string)
 
         if (self.is_fork):
-            self.fork_work = self.fork_info()
+            data_string = "%s, %s, %d\n" % (
+                self.org.name, self.name, self.fork_info())
 
-            with open() as f:
-                f.write()
+            f_file_path = os.path.join(
+                os.path.dirname(__file__), self.data_file_f)
+
+            with open(os.path.abspath(f_file_path), 'w') as f:
+                f.write(data_string)
 
     def filter_activity(self):
         index = 0
