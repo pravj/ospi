@@ -4,7 +4,7 @@ cucumbertown, django-gearman, 1, Python, 1, 0, 2012-02-05T18:46:38Z, A convenien
 cucumbertown, timing, 1, JavaScript, 1, 0, 2012-03-14T13:13:07Z, Visual presentation of Navigation Timing API performance object
 cucumbertown, git-commit-notifier, 1, Ruby, 1, 0, 2012-07-30T02:34:07Z, Sends HTML email commit messages splitting commits that were pushed in one step. Changes are highlighted per word.
 cucumbertown, django-haystack, 1, Python, 0, 0, 2012-08-24T09:34:00Z, Modular search for Django. Currently v2.0.0-beta.
-exotel, rest-client, 1, Ruby, 1, 0, 2012-05-20T02:41:31Z, Simple HTTP and REST client for Ruby, inspired by microframework syntax for specifying actions.
+exotel, rest-client, 1, Ruby, 1, 0, 2012-05-20T02:41:31Z, Simple HTTP and REST client for Ruby. inspired by microframework syntax for specifying actions.
 exotel, exotel-music, 0, JavaScript, 2, 0, 2013-03-06T06:33:27Z, A browser based hack that generates music for your mobile number
 exotel, tax-invoice-template, 0, PHP, 4, 2, 2013-04-11T05:29:03Z, Tax invoice sample for India
 exotel, km-db, 1, Ruby, 0, 0, 2013-06-24T16:03:19Z, Manipulate KISSmetrics data dumps
@@ -13,18 +13,18 @@ exotel, ExotelAPI, 1, Java, 3, 5, 2013-07-22T09:17:05Z, Exotel's Call and SMS AP
 exotel, ivr-audio-prompts, 0, None, 1, 2, 2013-10-07T05:12:10Z, Open Source and Free IVR Audio Prompts for various scenarios
 flipkart, padrino-rpm, 1, Ruby, 1, 0, 2012-03-12T07:24:20Z, New Relic Instrumentations for the Padrino framework
 flipkart, decimal-money, 1, Ruby, 2, 1, 2012-04-12T13:09:23Z, Library for dealing with money and currency conversion
-flipkart, RestExpress, 1, Java, 1, 4, 2012-06-20T18:31:04Z, RestExpress is the easiest way to create RESTful web services in Java.  An extremely Lightweight, Fast, REST Engine and API for Java.  Supports JSON and XML serialization automagically as well as ISO 8601 date formats.  A thin wrapper on Netty IO HTTP handling, RestExpress lets you create performant, stand-alone REST web services rapidly.  Works 'expressly' well with Syntaxe, RepoExpress and OAuthExpress.
+flipkart, RestExpress, 1, Java, 1, 4, 2012-06-20T18:31:04Z, RestExpress is the easiest way to create RESTful web services in Java.  An extremely Lightweight Fast REST Engine and API for Java.  Supports JSON and XML serialization automagically as well as ISO 8601 date formats.  A thin wrapper on Netty IO HTTP handling RestExpress lets you create performant stand-alone REST web services rapidly. Works expressly well with Syntaxe RepoExpress and OAuthExpress.
 flipkart, sbt-scct, 1, Scala, 1, 0, 2012-08-01T11:10:40Z, sbt integration to scct
 flipkart, speed, 0, Scala, 2, 1, 2012-08-06T03:36:55Z, Fault tolerant distributed in memory filesystem based on Membase
 flipkart, acts_as_tenant, 1, Ruby, 0, 0, 2012-09-07T16:34:14Z, Easy multi-tenancy for Rails in a shared database setup
 flipkart, multitenancy, 0, Ruby, 3, 0, 2012-12-03T12:56:24Z, Tenant gem for supply chain
 flipkart, hcatalog, 1, Java, 0, 0, 2013-01-13T07:53:38Z, Mirror of Apache HCatalog
-flipkart, padrino-framework, 1, Ruby, 0, 0, 2013-01-22T09:43:37Z, Padrino is a full-stack ruby framework built upon Sinatra. 
+flipkart, padrino-framework, 1, Ruby, 0, 0, 2013-01-22T09:43:37Z, Padrino is a full-stack ruby framework built upon Sinatra.
 flipkart, rails, 1, Ruby, 0, 0, 2013-01-29T03:43:54Z, Ruby on Rails
 flipkart, thread_safe, 1, Java, 0, 0, 2013-01-29T04:08:40Z, A collection of utilities for thread-safe programming in Ruby.
 flipkart, loader, 0, JavaScript, 11, 8, 2013-02-02T04:11:35Z, Distributed Load generation Platform with Server Side Monitoring Capabilities.
 flipkart, bundler, 1, Ruby, 0, 0, 2013-02-19T05:32:36Z, Manage your application's gem dependencies with less pain
-flipkart, activerecord_use_slave, 1, Ruby, 0, 0, 2013-02-19T10:47:53Z, Switch ActiveRecord connections to a slave database for a given request... or block
+flipkart, activerecord_use_slave, 1, Ruby, 0, 0, 2013-02-19T10:47:53Z, Switch ActiveRecord connections to a slave database for a given request or block
 flipkart, harness, 0, Java, 1, 3, 2013-02-26T14:01:50Z, Harness project - an automation test framework for functional tests
 flipkart, metrics, 1, Java, 0, 0, 2013-04-18T10:18:27Z, Capturing JVM- and application-level metrics. So you know what's going on.
 flipkart, swagger-codegen, 1, Scala, 0, 0, 2013-05-26T10:09:52Z, swagger-codegen contains a template-driven engine to generate client code in different languages by parsing your Swagger Resource Declaration.
@@ -34,14 +34,14 @@ flipkart, azkaban2, 1, Java, 1, 0, 2013-05-31T05:22:37Z, Azkaban scheduler re-wr
 flipkart, azkaban-plugins, 1, Java, 0, 0, 2013-05-31T05:30:57Z, Common plugins for azkaban2
 flipkart, minnal-sample-app, 0, Java, 0, 0, 2013-06-20T13:26:58Z, Contains sample application developed on minnal framework
 flipkart, minnal, 1, Java, 0, 2, 2013-06-26T10:28:06Z, Minnal is a REST framework that helps you eliminate boiler plate code and build applications faster
-flipkart, phantom, 0, Java, 71, 37, 2013-07-11T05:56:29Z, Phantom is a high performance proxy for accessing distributed services. It is an RPC system with support for different transports and protocols. Phantom is inspired by Twitter Finagle clients and builds on the capabilities of technologies like Netty, Unix Domain Sockets, Netflix Hystrix and Spring. Phantom proxies have been used to serve several hundred million API calls in production deployments at Flipkart.
-flipkart, activeldap, 1, Ruby, 0, 0, 2013-07-11T16:18:52Z, ActiveLdap provides an object oriented interface to LDAP.
+flipkart, phantom, 0, Java, 71, 37, 2013-07-11T05:56:29Z, Phantom is a high performance proxy for accessing distributed services. It is an RPC system with support for different transports and protocols. Phantom is inspired by Twitter Finagle clients and builds on the capabilities of technologies like Netty Unix Domain Sockets Netflix Hystrix and Spring Phantom proxies have been used to serve several hundred million API calls in production deployments at Flipkart
+flipkart, activeldap, 1, Ruby, 0, 0, 2013-07-11T16:18:52Z, ActiveLdap provides an object oriented interface to LDAP
 flipkart, pig, 1, Java, 0, 0, 2013-07-24T07:20:16Z, Mirror of Apache Pig
 flipkart, DTCoreText, 1, Objective-C, 1, 0, 2013-09-02T14:49:33Z, Methods to allow using HTML code with CoreText
 flipkart, GraceKelly, 0, Java, 4, 2, 2013-09-03T11:03:18Z, A Best Effort Cache Synchronization Library In Java
-flipkart, rest-client, 1, Ruby, 1, 0, 2013-09-27T07:46:21Z, Simple HTTP and REST client for Ruby, inspired by microframework syntax for specifying actions.
-flipkart, HostDB, 0, Perl, 190, 15, 2013-10-30T11:15:21Z, HostDB: a new tool to help manage data center inventory and write applications around it. 
-flipkart, aesop, 0, Java, 26, 8, 2013-11-25T13:35:29Z, A keen Observer of changes that can also relay change events reliably to interested parties. Provides useful infrastructure for building Eventually Consistent data sources and systems.
+flipkart, rest-client, 1, Ruby, 1, 0, 2013-09-27T07:46:21Z, Simple HTTP and REST client for Ruby, inspired by microframework syntax for specifying actions
+flipkart, HostDB, 0, Perl, 190, 15, 2013-10-30T11:15:21Z, HostDB: a new tool to help manage data center inventory and write applications around it
+flipkart, aesop, 0, Java, 26, 8, 2013-11-25T13:35:29Z, A keen Observer of changes that can also relay change events reliably to interested parties Provides useful infrastructure for building Eventually Consistent data sources and systems.
 flipkart, aw-reporting, 1, Java, 0, 0, 2013-12-10T08:41:31Z, AdWords Reports to DB
 flipkart, fk-affiliate-api-python, 0, Python, 1, 4, 2014-01-17T16:20:23Z, Product and Offers Feed APIs
 flipkart, fixit-felix, 0, JavaScript, 0, 0, 2014-01-18T14:41:56Z, Fixit-Felix troubleshooting workshop
@@ -51,7 +51,7 @@ flipkart, neo4j-lucene4-index, 1, Java, 2, 0, 2014-01-28T06:53:17Z, Index provid
 flipkart, alertz, 0, Java, 6, 5, 2014-02-07T08:37:01Z, Alerting Platform for real time and archived services.
 flipkart, automobile, 0, Java, 0, 2, 2014-02-24T06:45:28Z, an automation test framework for mobile apps
 flipkart, phantom-mysql-proxy, 0, Java, 6, 3, 2014-02-27T09:33:27Z, The Mysql proxy leverages the Phantom extensibility support.
-flipkart, open-replicator, 1, Java, 1, 1, 2014-04-10T13:37:16Z, Open Replicator is a high performance MySQL binlog parser written in Java. It unfolds the possibilities that you can parse, filter and broadcast the binlog events in a real time manner.
+flipkart, open-replicator, 1, Java, 1, 1, 2014-04-10T13:37:16Z, Open Replicator is a high performance MySQL binlog parser written in Java. It unfolds the possibilities that you can parse filter and broadcast the binlog events in a real time manner.
 flipkart, flipcast, 0, Scala, 18, 6, 2014-04-12T06:32:00Z, A scalable push notification platform for mobile, devices and web.
 flipkart, betamax, 1, CSS, 1, 0, 2014-04-12T06:37:17Z, Betamax is a tool for mocking external HTTP resources such as web services and REST APIs in your tests. The project was inspired by the VCR library for Ruby.
 flipkart, hive-udf, 1, Java, 0, 1, 2014-06-09T14:00:35Z, NexR Hive UDFs
@@ -62,31 +62,31 @@ flipkart, RationalArithmetic, 1, None, 0, 0, 2014-07-08T05:27:23Z, TDDing Ration
 flipkart, databus, 1, Java, 0, 0, 2014-07-30T08:54:39Z, Source-agnostic distributed change data capture system
 flipkart, load_balancer_adapter, 1, Ruby, 0, 0, 2014-08-04T09:00:53Z, ActiveRecord adapter that load balances connections across multiple database hosts.
 flipkart, pdf.js, 1, JavaScript, 2, 1, 2014-08-05T10:18:06Z, PDF Reader in JavaScript
-flipkart, collectd, 1, C, 0, 0, 2014-08-12T17:14:52Z, The system statistics collection daemon. Mirror of the canonical repository (updated automatically). Please send Pull Requests here!
+flipkart, collectd, 1, C, 0, 0, 2014-08-12T17:14:52Z, The system statistics collection daemon. Mirror of the canonical repository updated automatically. Please send Pull Requests here
 flipkart, redis-session-store, 1, None, 0, 0, 2014-08-31T18:57:02Z, A simple session store for Rails based on Redis.
 flipkart, quartz, 0, Java, 0, 0, 2014-09-29T13:30:21Z, 
 flipkart, lucene-solr, 1, None, 0, 0, 2014-10-10T11:55:38Z, Mirror of Apache Lucene & Solr
 flipkart, MySQL-replication-listener, 0, C++, 1, 0, 2014-10-21T10:40:45Z, This is a fork of MySQL-replication-listener on launchpad. https://launchpad.net/mysql-replication-listener
-flipkart, ribbon, 1, Java, 0, 0, 2014-11-24T11:25:13Z, Ribbon is a Inter Process Communication (remote procedure calls) library with built in software load balancers. The primary usage model involves REST calls with various serialization scheme support.
+flipkart, ribbon, 1, Java, 0, 0, 2014-11-24T11:25:13Z, Ribbon is a Inter Process Communication remote procedure calls library with built in software load balancers. The primary usage model involves REST calls with various serialization scheme support.
 flipkart, zxing, 1, Java, 0, 0, 2014-11-26T10:31:32Z, Official ZXing Zebra Crossing project home
 flipkart, linux, 0, C, 0, 0, 2014-11-27T05:07:55Z, Flipkart fork of Linux kernel
-flipkart, mtcp, 1, C, 0, 1, 2014-12-02T03:42:42Z, mTCP: A Highly Scalable User-level TCP Stack for Multicore Systems
-flipkart, netmap, 0, C, 0, 1, 2014-12-02T03:48:21Z, netmap and VALE - very fast packet I/O from userspace (FreeBSD/Linux)
+flipkart, mtcp, 1, C, 0, 1, 2014-12-02T03:42:42Z, mTCP A Highly Scalable User-level TCP Stack for Multicore Systems
+flipkart, netmap, 0, C, 0, 1, 2014-12-02T03:48:21Z, netmap and VALE very fast packet I/O from userspace FreeBSD/Linux
 flipkart, Sql4D, 1, Java, 0, 0, 2014-12-04T12:02:41Z, Sql interface to druid.
 freshdesk, Marketo, 1, Ruby, 0, 0, 2012-08-08T13:30:30Z, Gem to interact with the Marketo SOAP API
-freshdesk, resque, 1, Ruby, 0, 0, 2012-08-23T15:34:06Z, Resque is a Redis-backed Ruby library for creating background jobs, placing them on multiple queues, and processing them later.
+freshdesk, resque, 1, Ruby, 0, 0, 2012-08-23T15:34:06Z, Resque is a Redis backed Ruby library for creating background jobs placing them on multiple queues and processing them later.
 freshdesk, deadlock_retry, 1, Ruby, 0, 0, 2012-09-25T16:58:13Z, Deadlock Retry plugin
 freshdesk, tire, 1, Ruby, 0, 2, 2012-10-12T10:49:43Z, A rich Ruby API and DSL for the ElasticSearch search engine/database
 freshdesk, fresh-samples, 0, Ruby, 7, 14, 2012-10-18T17:55:07Z, Samples of code created by freshdesk
 freshdesk, ruby-yui-compressor, 1, Ruby, 0, 2, 2012-10-29T10:18:33Z, A Ruby interface to YUI Compressor for minifying JavaScript and CSS assets.
 freshdesk, actionmailer-callbacks, 1, Ruby, 0, 0, 2012-11-29T16:52:55Z, add callbacks to actionmailer
 freshdesk, seamless_database_pool, 1, Ruby, 0, 1, 2013-01-02T19:44:23Z, Add support for master/slave database clusters in ActiveRecord to improve performance.
-freshdesk, socket.io, 1, JavaScript, 0, 0, 2013-01-05T17:37:59Z, Realtime application framework for Node.JS, with HTML5 WebSockets and cross-browser fallbacks support.
+freshdesk, socket.io, 1, JavaScript, 0, 0, 2013-01-05T17:37:59Z, Realtime application framework for Node.JS with HTML5 WebSockets and cross-browser fallbacks support.
 freshdesk, octopus, 1, Ruby, 0, 1, 2013-01-07T06:44:14Z, Database Sharding for ActiveRecord
-freshdesk, after_commit, 1, Ruby, 0, 0, 2013-01-15T10:12:37Z, A Ruby on Rails plugin to add an after_commit callback. This can be used to trigger things only after the entire transaction is complete.
+freshdesk, after_commit, 1, Ruby, 0, 0, 2013-01-15T10:12:37Z, A Ruby on Rails plugin to add an after commit callback. This can be used to trigger things only after the entire transaction is complete.
 freshdesk, cloudfront_asset_host, 1, Ruby, 0, 0, 2013-02-02T08:33:22Z, Easy deployment of your assets on CloudFront for Rails
 freshdesk, large-hadron-migrator, 1, Ruby, 0, 1, 2013-02-05T10:09:20Z, online schema change tool
-freshdesk, rinku, 1, C, 0, 0, 2013-02-13T14:25:25Z, Autolinking. Ruby. Yes, that's pretty much it.
+freshdesk, rinku, 1, C, 0, 0, 2013-02-13T14:25:25Z, Autolinking. Ruby. Yes that's pretty much it.
 freshdesk, rails, 1, Ruby, 0, 0, 2013-02-14T08:19:24Z, Ruby on Rails
 freshdesk, fresh_pattern, 0, None, 0, 0, 2013-03-25T14:44:50Z, 
 freshdesk, ruby-openid, 1, Ruby, 0, 0, 2013-04-19T05:03:20Z, OpenID library for Ruby
@@ -110,7 +110,7 @@ hasgeek, github-hook, 0, Python, 4, 1, 2010-11-17T20:39:50Z, GitHub commit hook 
 hasgeek, hasgeek.github.com, 0, None, 2, 0, 2011-01-07T09:40:42Z, HasGeek Code page
 hasgeek, lastuser, 0, Python, 113, 33, 2011-02-17T14:58:31Z, User management in each new app is a pain. This is the last time you should be doing it
 hasgeek, androidcamp, 0, Ruby, 3, 1, 2011-03-09T10:47:46Z, Website for androidcamp.in
-hasgeek, hasjob, 0, Python, 70, 43, 2011-04-21T09:29:49Z, Hasjob, the HasGeek job board
+hasgeek, hasjob, 0, Python, 70, 43, 2011-04-21T09:29:49Z, Hasjob the HasGeek job board
 hasgeek, billgate, 0, Python, 1, 0, 2011-05-20T17:46:31Z, HasGeek Billing Gateway
 hasgeek, flask-lastuser, 0, Python, 14, 7, 2011-05-20T17:51:17Z, Flask extension for Lastuser
 hasgeek, funnel, 0, Python, 20, 38, 2011-06-02T18:48:00Z, HasGeek Funnel
@@ -147,7 +147,7 @@ hasgeek, css-workshop, 1, JavaScript, 0, 0, 2013-02-01T11:21:45Z, hasgeek css wo
 hasgeek, nodular, 0, Python, 1, 0, 2013-03-01T10:22:09Z, Reusable content objects for HasGeek apps
 hasgeek, workshops, 1, CSS, 0, 2, 2013-03-23T14:49:09Z, Workshop static pages
 hasgeek, serverdown, 0, None, 1, 0, 2013-03-25T12:12:54Z, Standby page for server downtime
-hasgeek, stashboard, 1, Python, 1, 0, 2013-03-25T12:37:02Z, An open-source status dashboard running on App Engine
+hasgeek, stashboard, 1, Python, 1, 0, 2013-03-25T12:37:02Z, An open source status dashboard running on App Engine
 hasgeek, nodules, 0, Python, 0, 0, 2013-05-06T04:20:19Z, Content nodes for nodular
 hasgeek, hasnew, 0, Python, 1, 0, 2013-05-19T15:35:55Z, HasGeek News
 hasgeek, ef2, 0, None, 0, 0, 2013-07-03T12:48:08Z, Eventframe 2
@@ -160,23 +160,23 @@ hasgeek, cookiefree, 0, Python, 0, 0, 2014-03-31T13:43:21Z, Static, cacheable da
 hasgeek, oddc, 1, JavaScript, 0, 0, 2014-07-05T13:37:00Z, Opening Government Data in India
 hasgeek, packman, 0, Python, 0, 1, 2014-10-01T22:03:35Z, HasGeek asset packing management
 hasgeek, inspiring-sites, 0, None, 0, 0, 2014-11-12T03:22:20Z, Template for event websites
-hackerearth, django-storages, 1, Python, 3, 0, 2012-11-13T22:27:12Z, github version of django-storages ... Support for many storages (S3, MogileFS, etc) in Django. Documentation: http://django-storages.readthedocs.org
+hackerearth, django-storages, 1, Python, 3, 0, 2012-11-13T22:27:12Z, github version of django storages Support for many storages S3 MogileFS etc in Django. Documentation http://django-storages.readthedocs.org
 hackerearth, developer.hackerearth.com, 0, CSS, 11, 10, 2013-02-02T10:26:05Z, HackerEarth API resource documentation
 hackerearth, hackerearth.vim, 0, VimL, 28, 5, 2013-03-05T17:40:38Z, HackerEarth Vim plugin to compile and run code from the comfort of your favorite editor.
 hackerearth, django-allauth, 0, Python, 5, 3, 2013-03-08T15:36:40Z, django-allauth can be used to provide authentication mechanism in a django project. It supports both native signup or login using third party applications
-hackerearth, engineering.hackerearth.com, 0, CSS, 4, 2, 2013-03-09T15:22:15Z, Blog about engineering and product @HackerEarth
-hackerearth, elock, 1, Erlang, 0, 0, 2013-03-31T12:21:07Z, A simple, fault-tolerant distributed lock server in erlang.
+hackerearth, engineering.hackerearth.com, 0, CSS, 4, 2, 2013-03-09T15:22:15Z, Blog about engineering and product HackerEarth
+hackerearth, elock, 1, Erlang, 0, 0, 2013-03-31T12:21:07Z, A simple fault-tolerant distributed lock server in erlang.
 hackerearth, hackerearth-chrome-extension, 0, CSS, 6, 1, 2013-10-20T09:09:50Z, Chrome extension for HackerEarth challenge updates.
 hackerearth, offline, 1, CSS, 1, 0, 2013-10-25T09:14:56Z, Automatically display online/offline indication to your users.
 hackerearth, django-debug-toolbar, 1, Python, 0, 0, 2013-10-27T19:26:41Z, A configurable set of panels that display various debug information about the current request/response.
 hackerearth, apache-mpm-settings, 1, Python, 0, 0, 2013-11-24T16:04:53Z, Scripts to evaluate Apache MPM configuration settings.
 hackerearth, hackerearth-api-connector-php, 0, PHP, 7, 0, 2013-12-31T13:11:22Z, PHP package which connects to the HackerEarth API for compiling/running code
 hackerearth, hackerearth-github-services, 0, None, 0, 0, 2014-04-12T12:27:52Z, Github Services Integration with HackerEarth
-hackerearth, jsscribble, 0, JavaScript, 0, 3, 2014-04-12T13:40:02Z, Online code editor for HTML, CSS, JavaScript
+hackerearth, jsscribble, 0, JavaScript, 0, 3, 2014-04-12T13:40:02Z, Online code editor for HTML CSS JavaScript
 hackerearth, hackerearth-api-connector-python, 0, Python, 1, 0, 2014-04-25T07:59:25Z, Python package to connect to HackerEarth API.
-hackerearth, news.hackerearth.com, 0, CSS, 1, 0, 2014-12-10T19:18:22Z, Posts about release of new features, products and updates at HackerEarth
-instamojo, inuit.css, 1, Shell, 0, 0, 2013-04-08T09:41:18Z, Powerful, scalable, Sass-based, BEM, OOCSS framework.
-instamojo, client-python, 0, Python, 2, 5, 2013-06-17T12:31:40Z, Instamojo API Client, Python implementation.
+hackerearth, news.hackerearth.com, 0, CSS, 1, 0, 2014-12-10T19:18:22Z, Posts about release of new features products and updates at HackerEarth
+instamojo, inuit.css, 1, Shell, 0, 0, 2013-04-08T09:41:18Z, Powerful scalable Sass-based BEM OOCSS framework.
+instamojo, client-python, 0, Python, 2, 5, 2013-06-17T12:31:40Z, Instamojo API Client Python implementation.
 instamojo, instamojo-py, 0, Python, 4, 3, 2013-09-19T05:59:52Z, Python library for Instamojo API
 instamojo, immoral, 1, JavaScript, 0, 0, 2013-09-23T13:14:36Z, A spunky clean flexible no-forced-design modal library.
 instamojo, instamojo-php, 1, PHP, 1, 1, 2013-10-22T10:50:57Z, A PHP wrapper for the instamojo API.
@@ -186,7 +186,7 @@ instamojo, Instamojo-rb, 1, Ruby, 0, 0, 2014-01-27T10:12:41Z, Ruby wrapper for I
 instamojo, slackard, 1, Python, 1, 0, 2014-09-05T13:15:17Z, A bot for the slack.com group collaboration tool
 instamojo, instamojo-prestashop, 1, PHP, 1, 0, 2014-09-22T06:51:37Z, An integration module for integrating Instamojo to Prestashop
 instamojo, responsive-tooltip, 0, CSS, 1, 0, 2014-09-23T11:42:51Z, 
-instamojo, huxley, 1, None, 0, 0, 2014-10-20T14:36:42Z, Huxley is a test-like system for catching visual regressions in Web applications. It watches you browse, takes screenshots, and tells you when they change.
+instamojo, huxley, 1, None, 0, 0, 2014-10-20T14:36:42Z, Huxley is a test-like system for catching visual regressions in Web applications. It watches you browse takes screenshots and tells you when they change.
 instamojo, bravo, 0, Python, 0, 0, 2014-10-22T07:22:28Z, A tool to work with html element classes - for porting between/refactoring design frameworks.
 myntra, deploy, 1, Shell, 0, 0, 2014-03-22T19:06:50Z, Minimalistic deployment shell script
 myntra, AFNetworking, 1, None, 0, 0, 2014-07-15T10:52:52Z, A delightful iOS and OS X networking framework
@@ -197,7 +197,7 @@ myntra, ObjectiveSugar, 1, None, 0, 0, 2014-08-07T06:16:08Z, ObjectiveC addition
 myntra, MYNStickyFlowLayout, 0, Objective-C, 133, 7, 2014-08-19T14:15:03Z, Drop-in sticky headers and footers for UICollectionView.
 myntra, elasticsearch, 1, Shell, 0, 0, 2014-10-09T10:53:35Z, ElasticSearch Dockerfile for trusted automated Docker builds.
 myntra, gplus-web-auth, 0, JavaScript, 0, 0, 2014-10-10T10:27:20Z, Google+ authentication with client-side sessions for Node.js
-myntra, robospice, 1, None, 0, 0, 2014-10-30T21:08:39Z, Repo of the Open Source Android library : RoboSpice. RoboSpice is a modular android library that makes writing asynchronous long running tasks easy. It is specialized in network requests, supports caching and offers REST requests out-of-the box using extension modules.
+myntra, robospice, 1, None, 0, 0, 2014-10-30T21:08:39Z, Repo of the Open Source Android library : RoboSpice. RoboSpice is a modular android library that makes writing asynchronous long running tasks easy. It is specialized in network requests supports caching and offers REST requests out-of-the box using extension modules.
 mysmartprice, gearman-workers-cookbooks, 0, Ruby, 0, 0, 2014-08-29T14:43:04Z, 
 mysmartprice, tech-blog, 0, JavaScript, 0, 1, 2014-10-15T04:29:28Z, Tech Blog of MySmartPrice
 practo, mail_transport_postmark, 1, PHP, 2, 1, 2010-08-10T05:46:17Z, Allowing Zend_Mail to deliver messages using the Postmark service
@@ -210,12 +210,12 @@ practo, libphonenumber-for-php, 1, PHP, 22, 5, 2012-05-12T08:15:39Z, PHP version
 practo, python-openid, 1, Python, 1, 0, 2012-05-12T08:31:23Z, OpenID library for Python
 practo, php-openid, 1, PHP, 1, 0, 2012-05-12T08:31:41Z, OpenID library for PHP5
 practo, CacheBundle, 1, PHP, 1, 0, 2012-06-20T14:55:04Z, Symfony2 bundle for memcache and other caching interfaces
-practo, fullcalendar, 1, JavaScript, 1, 1, 2012-07-03T20:49:10Z, Full-sized drag & drop event calendar (jQuery plugin)
+practo, fullcalendar, 1, JavaScript, 1, 1, 2012-07-03T20:49:10Z, Full-sized drag & drop event calendar jQuery plugin
 practo, flask-mail, 1, Python, 1, 0, 2012-07-27T15:00:55Z, Flask SMTP extension using Lamson
 practo, MyCQ, 0, Python, 2, 1, 2012-07-29T15:51:31Z, MyCQ is a simple website written in Flask to give MCQ test
 practo, doctrine-migrations, 0, PHP, 0, 0, 2012-08-30T15:43:55Z, doctrine migration v1
-practo, KunstmaanSentryBundle, 1, PHP, 1, 0, 2013-02-11T05:22:03Z, The SentryBundle for Symfony2 helps binds the raven-php module into a Symfony2 bundle for easy use with the framework. It will autoload an exception handler into the framework, so that all uncaught errors are sent to a Sentry server.
-practo, raven-php, 1, PHP, 0, 0, 2013-03-06T06:27:37Z, Raven is a PHP client for Sentry (getsentry.com)
+practo, KunstmaanSentryBundle, 1, PHP, 1, 0, 2013-02-11T05:22:03Z, The SentryBundle for Symfony2 helps binds the raven-php module into a Symfony2 bundle for easy use with the framework. It will autoload an exception handler into the framework so that all uncaught errors are sent to a Sentry server.
+practo, raven-php, 1, PHP, 0, 0, 2013-03-06T06:27:37Z, Raven is a PHP client for Sentry getsentry.com
 practo, seyren, 1, Java, 0, 0, 2013-04-12T17:11:52Z, An alerting dashboard for Graphite
 practo, Kal, 0, Objective-C, 0, 0, 2013-05-28T09:37:30Z, 
 practo, ActionBarSherlock, 0, Java, 0, 0, 2013-07-24T13:43:47Z, 
@@ -374,17 +374,17 @@ urbanladder, melinis, 1, Ruby, 0, 2, 2014-05-10T08:52:28Z,
 urbanladder, uniware, 0, Ruby, 0, 3, 2014-05-10T09:00:45Z, Ruby interface to the Uniware API
 urbanladder, spree_static_content, 1, Ruby, 0, 1, 2014-06-08T06:55:12Z, Extention to manage the static pages for your spree shop
 webengage, TourMe.js, 0, JavaScript, 0, 0, 2014-08-31T13:52:33Z, A JS API to trigger a chain of speech bubble style messages on your website for better user onboarding
-wingify, wingify.github.io, 0, CSS, 5, 1, 2013-05-13T19:35:24Z, Engineering blog @ Wingify
+wingify, wingify.github.io, 0, CSS, 5, 1, 2013-05-13T19:35:24Z, Engineering blog Wingify
 wingify, lua-resty-rabbitmqstomp, 0, Lua, 45, 13, 2013-05-30T13:00:59Z, Opinionated Lua RabbitMQ client library for the ngx_lua apps based on the cosocket API
 wingify, rabbitmq-munin, 1, Shell, 4, 0, 2013-05-30T13:15:23Z, Munin-plugins for RabbitMQ
 wingify, please.js, 0, JavaScript, 211, 15, 2013-06-17T08:30:30Z, A simple PostMessage communication library.
 wingify, agentredrabbit, 0, Python, 49, 4, 2013-07-12T12:00:11Z, Transport agent that moves data from Redis to RabbitMQ
 wingify, angular-translate, 1, JavaScript, 0, 0, 2013-11-14T13:10:17Z, i18n in your Angular apps, made easy.
-wingify, ui-router, 1, JavaScript, 0, 1, 2013-11-26T11:32:41Z, UI-Router for Nested Routing by the AngularUI Team!
-wingify, bootstrap, 1, JavaScript, 0, 1, 2014-02-08T10:45:59Z, Native AngularJS (Angular) directives for Twitter's Bootstrap. Small footprint (5kB gzipped!), no 3rd party JS dependencies (jQuery, bootstrap JS) required!
+wingify, ui-router, 1, JavaScript, 0, 1, 2013-11-26T11:32:41Z, UI-Router for Nested Routing by the AngularUI Team
+wingify, bootstrap, 1, JavaScript, 0, 1, 2014-02-08T10:45:59Z, Native AngularJS Angular directives for Twitter's Bootstrap. Small footprint 5kB gzipped no 3rd party JS dependencies jQuery, bootstrap JS required
 wingify, ngQuickDate, 1, CoffeeScript, 0, 0, 2014-02-12T14:17:34Z, An Angular.js Date/Time picker directive that stresses speed of data entry and configuration
 wingify, heatmap.js, 1, JavaScript, 0, 1, 2014-02-19T16:46:04Z, JavaScript Library for HTML5 canvas based heatmaps
-wingify, angular-date-range-picker, 1, CoffeeScript, 0, 0, 2014-03-29T14:28:28Z, Pure Angular date range picker, no jQuery
+wingify, angular-date-range-picker, 1, CoffeeScript, 0, 0, 2014-03-29T14:28:28Z, Pure Angular date range picker no jQuery
 wingify, VWO-iOS, 0, Ruby, 5, 2, 2014-04-23T18:30:58Z, VWO SDK for A/B Testing iOS apps
 wingify, resource-manager, 0, CSS, 0, 0, 2014-07-06T19:57:44Z, 
 wingify, vnc, 0, C, 1, 0, 2014-07-18T09:21:37Z, VNC server application for iOS Simulators running on mac machines
