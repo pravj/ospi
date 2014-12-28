@@ -39,7 +39,7 @@ flipkart, activeldap, 1, Ruby, 0, 0, 2013-07-11T16:18:52Z, ActiveLdap provides a
 flipkart, pig, 1, Java, 0, 0, 2013-07-24T07:20:16Z, Mirror of Apache Pig
 flipkart, DTCoreText, 1, Objective-C, 1, 0, 2013-09-02T14:49:33Z, Methods to allow using HTML code with CoreText
 flipkart, GraceKelly, 0, Java, 4, 2, 2013-09-03T11:03:18Z, A Best Effort Cache Synchronization Library In Java
-flipkart, rest-client, 1, Ruby, 1, 0, 2013-09-27T07:46:21Z, Simple HTTP and REST client for Ruby, inspired by microframework syntax for specifying actions
+flipkart, rest-client, 1, Ruby, 1, 0, 2013-09-27T07:46:21Z, Simple HTTP and REST client for Ruby inspired by microframework syntax for specifying actions
 flipkart, HostDB, 0, Perl, 190, 15, 2013-10-30T11:15:21Z, HostDB: a new tool to help manage data center inventory and write applications around it
 flipkart, aesop, 0, Java, 26, 8, 2013-11-25T13:35:29Z, A keen Observer of changes that can also relay change events reliably to interested parties Provides useful infrastructure for building Eventually Consistent data sources and systems.
 flipkart, aw-reporting, 1, Java, 0, 0, 2013-12-10T08:41:31Z, AdWords Reports to DB
