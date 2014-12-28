@@ -68,7 +68,7 @@ flipkart, quartz, 0, Java, 0, 0, 2014-09-29T13:30:21Z,
 flipkart, lucene-solr, 1, None, 0, 0, 2014-10-10T11:55:38Z, Mirror of Apache Lucene & Solr
 flipkart, MySQL-replication-listener, 0, C++, 1, 0, 2014-10-21T10:40:45Z, This is a fork of MySQL-replication-listener on launchpad. https://launchpad.net/mysql-replication-listener
 flipkart, ribbon, 1, Java, 0, 0, 2014-11-24T11:25:13Z, Ribbon is a Inter Process Communication (remote procedure calls) library with built in software load balancers. The primary usage model involves REST calls with various serialization scheme support.
-flipkart, zxing, 1, Java, 0, 0, 2014-11-26T10:31:32Z, Official ZXing ("Zebra Crossing") project home
+flipkart, zxing, 1, Java, 0, 0, 2014-11-26T10:31:32Z, Official ZXing Zebra Crossing project home
 flipkart, linux, 0, C, 0, 0, 2014-11-27T05:07:55Z, Flipkart fork of Linux kernel
 flipkart, mtcp, 1, C, 0, 1, 2014-12-02T03:42:42Z, mTCP: A Highly Scalable User-level TCP Stack for Multicore Systems
 flipkart, netmap, 0, C, 0, 1, 2014-12-02T03:48:21Z, netmap and VALE - very fast packet I/O from userspace (FreeBSD/Linux)
