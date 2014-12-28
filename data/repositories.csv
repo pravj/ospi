@@ -1,0 +1,398 @@
+organization, repository, is_fork, language, stars, forks, created_at, description
+cucumbertown, punjab, 1, Python, 1, 0, 2011-10-16T08:20:39Z, BOSH connection manager
+cucumbertown, django-gearman, 1, Python, 1, 0, 2012-02-05T18:46:38Z, A convenience wrapper for Gearman clients and workers in Django/Python. Designed and tested against Gearman 1.14.
+cucumbertown, timing, 1, JavaScript, 1, 0, 2012-03-14T13:13:07Z, Visual presentation of Navigation Timing API performance object
+cucumbertown, git-commit-notifier, 1, Ruby, 1, 0, 2012-07-30T02:34:07Z, Sends HTML email commit messages splitting commits that were pushed in one step. Changes are highlighted per word.
+cucumbertown, django-haystack, 1, Python, 0, 0, 2012-08-24T09:34:00Z, Modular search for Django. Currently v2.0.0-beta.
+exotel, rest-client, 1, Ruby, 1, 0, 2012-05-20T02:41:31Z, Simple HTTP and REST client for Ruby, inspired by microframework syntax for specifying actions.
+exotel, exotel-music, 0, JavaScript, 2, 0, 2013-03-06T06:33:27Z, A browser based hack that generates music for your mobile number
+exotel, tax-invoice-template, 0, PHP, 4, 2, 2013-04-11T05:29:03Z, Tax invoice sample for India
+exotel, km-db, 1, Ruby, 0, 0, 2013-06-24T16:03:19Z, Manipulate KISSmetrics data dumps
+exotel, dashing, 1, JavaScript, 0, 1, 2013-07-10T14:45:26Z, The exceptionally handsome dashboard framework in Ruby and Coffeescript.
+exotel, ExotelAPI, 1, Java, 3, 5, 2013-07-22T09:17:05Z, Exotel's Call and SMS API sample code
+exotel, ivr-audio-prompts, 0, None, 1, 2, 2013-10-07T05:12:10Z, Open Source and Free IVR Audio Prompts for various scenarios
+flipkart, padrino-rpm, 1, Ruby, 1, 0, 2012-03-12T07:24:20Z, New Relic Instrumentations for the Padrino framework
+flipkart, decimal-money, 1, Ruby, 2, 1, 2012-04-12T13:09:23Z, Library for dealing with money and currency conversion
+flipkart, RestExpress, 1, Java, 1, 4, 2012-06-20T18:31:04Z, RestExpress is the easiest way to create RESTful web services in Java.  An extremely Lightweight, Fast, REST Engine and API for Java.  Supports JSON and XML serialization automagically as well as ISO 8601 date formats.  A thin wrapper on Netty IO HTTP handling, RestExpress lets you create performant, stand-alone REST web services rapidly.  Works 'expressly' well with Syntaxe, RepoExpress and OAuthExpress.
+flipkart, sbt-scct, 1, Scala, 1, 0, 2012-08-01T11:10:40Z, sbt integration to scct
+flipkart, speed, 0, Scala, 2, 1, 2012-08-06T03:36:55Z, Fault tolerant distributed in memory filesystem based on Membase
+flipkart, acts_as_tenant, 1, Ruby, 0, 0, 2012-09-07T16:34:14Z, Easy multi-tenancy for Rails in a shared database setup
+flipkart, multitenancy, 0, Ruby, 3, 0, 2012-12-03T12:56:24Z, Tenant gem for supply chain
+flipkart, hcatalog, 1, Java, 0, 0, 2013-01-13T07:53:38Z, Mirror of Apache HCatalog
+flipkart, padrino-framework, 1, Ruby, 0, 0, 2013-01-22T09:43:37Z, Padrino is a full-stack ruby framework built upon Sinatra. 
+flipkart, rails, 1, Ruby, 0, 0, 2013-01-29T03:43:54Z, Ruby on Rails
+flipkart, thread_safe, 1, Java, 0, 0, 2013-01-29T04:08:40Z, A collection of utilities for thread-safe programming in Ruby.
+flipkart, loader, 0, JavaScript, 11, 8, 2013-02-02T04:11:35Z, Distributed Load generation Platform with Server Side Monitoring Capabilities.
+flipkart, bundler, 1, Ruby, 0, 0, 2013-02-19T05:32:36Z, Manage your application's gem dependencies with less pain
+flipkart, activerecord_use_slave, 1, Ruby, 0, 0, 2013-02-19T10:47:53Z, Switch ActiveRecord connections to a slave database for a given request... or block
+flipkart, harness, 0, Java, 1, 3, 2013-02-26T14:01:50Z, Harness project - an automation test framework for functional tests
+flipkart, metrics, 1, Java, 0, 0, 2013-04-18T10:18:27Z, Capturing JVM- and application-level metrics. So you know what's going on.
+flipkart, swagger-codegen, 1, Scala, 0, 0, 2013-05-26T10:09:52Z, swagger-codegen contains a template-driven engine to generate client code in different languages by parsing your Swagger Resource Declaration.
+flipkart, swagger-maven-plugin, 1, Java, 0, 1, 2013-05-26T10:10:26Z, A maven build plugin which helps you generate API document during build phase
+flipkart, dropwizard, 1, Java, 0, 4, 2013-05-27T12:42:12Z, A damn simple library for building production-ready RESTful web services.
+flipkart, azkaban2, 1, Java, 1, 0, 2013-05-31T05:22:37Z, Azkaban scheduler re-written from the ground up.
+flipkart, azkaban-plugins, 1, Java, 0, 0, 2013-05-31T05:30:57Z, Common plugins for azkaban2
+flipkart, minnal-sample-app, 0, Java, 0, 0, 2013-06-20T13:26:58Z, Contains sample application developed on minnal framework
+flipkart, minnal, 1, Java, 0, 2, 2013-06-26T10:28:06Z, Minnal is a REST framework that helps you eliminate boiler plate code and build applications faster
+flipkart, phantom, 0, Java, 71, 37, 2013-07-11T05:56:29Z, Phantom is a high performance proxy for accessing distributed services. It is an RPC system with support for different transports and protocols. Phantom is inspired by Twitter Finagle clients and builds on the capabilities of technologies like Netty, Unix Domain Sockets, Netflix Hystrix and Spring. Phantom proxies have been used to serve several hundred million API calls in production deployments at Flipkart.
+flipkart, activeldap, 1, Ruby, 0, 0, 2013-07-11T16:18:52Z, ActiveLdap provides an object oriented interface to LDAP.
+flipkart, pig, 1, Java, 0, 0, 2013-07-24T07:20:16Z, Mirror of Apache Pig
+flipkart, DTCoreText, 1, Objective-C, 1, 0, 2013-09-02T14:49:33Z, Methods to allow using HTML code with CoreText
+flipkart, GraceKelly, 0, Java, 4, 2, 2013-09-03T11:03:18Z, A Best Effort Cache Synchronization Library In Java
+flipkart, rest-client, 1, Ruby, 1, 0, 2013-09-27T07:46:21Z, Simple HTTP and REST client for Ruby, inspired by microframework syntax for specifying actions.
+flipkart, HostDB, 0, Perl, 190, 15, 2013-10-30T11:15:21Z, HostDB: a new tool to help manage data center inventory and write applications around it. 
+flipkart, aesop, 0, Java, 26, 8, 2013-11-25T13:35:29Z, A keen Observer of changes that can also relay change events reliably to interested parties. Provides useful infrastructure for building Eventually Consistent data sources and systems.
+flipkart, aw-reporting, 1, Java, 0, 0, 2013-12-10T08:41:31Z, AdWords Reports to DB
+flipkart, fk-affiliate-api-python, 0, Python, 1, 4, 2014-01-17T16:20:23Z, Product and Offers Feed APIs
+flipkart, fixit-felix, 0, JavaScript, 0, 0, 2014-01-18T14:41:56Z, Fixit-Felix troubleshooting workshop
+flipkart, camus, 1, Java, 0, 0, 2014-01-20T06:55:54Z, 
+flipkart, neo4j, 1, Java, 0, 0, 2014-01-21T06:50:58Z, The World's Leading Graph Database
+flipkart, neo4j-lucene4-index, 1, Java, 2, 0, 2014-01-28T06:53:17Z, Index provider for neo4j using lucene v4.
+flipkart, alertz, 0, Java, 6, 5, 2014-02-07T08:37:01Z, Alerting Platform for real time and archived services.
+flipkart, automobile, 0, Java, 0, 2, 2014-02-24T06:45:28Z, an automation test framework for mobile apps
+flipkart, phantom-mysql-proxy, 0, Java, 6, 3, 2014-02-27T09:33:27Z, The Mysql proxy leverages the Phantom extensibility support.
+flipkart, open-replicator, 1, Java, 1, 1, 2014-04-10T13:37:16Z, Open Replicator is a high performance MySQL binlog parser written in Java. It unfolds the possibilities that you can parse, filter and broadcast the binlog events in a real time manner.
+flipkart, flipcast, 0, Scala, 18, 6, 2014-04-12T06:32:00Z, A scalable push notification platform for mobile, devices and web.
+flipkart, betamax, 1, CSS, 1, 0, 2014-04-12T06:37:17Z, Betamax is a tool for mocking external HTTP resources such as web services and REST APIs in your tests. The project was inspired by the VCR library for Ruby.
+flipkart, hive-udf, 1, Java, 0, 1, 2014-06-09T14:00:35Z, NexR Hive UDFs
+flipkart, sun-jdk-7-debian-x64, 0, None, 0, 1, 2014-06-10T12:20:42Z, Sun JDK 1.7 package for debian squeeze
+flipkart, bootcamp2014-build-tool-faceoff, 0, Ruby, 0, 4, 2014-07-04T10:51:25Z, 
+flipkart, bootcamp2014-mvn-intro, 0, Java, 0, 9, 2014-07-04T10:52:50Z, 
+flipkart, RationalArithmetic, 1, None, 0, 0, 2014-07-08T05:27:23Z, TDDing RationalArithmetic
+flipkart, databus, 1, Java, 0, 0, 2014-07-30T08:54:39Z, Source-agnostic distributed change data capture system
+flipkart, load_balancer_adapter, 1, Ruby, 0, 0, 2014-08-04T09:00:53Z, ActiveRecord adapter that load balances connections across multiple database hosts.
+flipkart, pdf.js, 1, JavaScript, 2, 1, 2014-08-05T10:18:06Z, PDF Reader in JavaScript
+flipkart, collectd, 1, C, 0, 0, 2014-08-12T17:14:52Z, The system statistics collection daemon. Mirror of the canonical repository (updated automatically). Please send Pull Requests here!
+flipkart, redis-session-store, 1, None, 0, 0, 2014-08-31T18:57:02Z, A simple session store for Rails based on Redis.
+flipkart, quartz, 0, Java, 0, 0, 2014-09-29T13:30:21Z, 
+flipkart, lucene-solr, 1, None, 0, 0, 2014-10-10T11:55:38Z, Mirror of Apache Lucene & Solr
+flipkart, MySQL-replication-listener, 0, C++, 1, 0, 2014-10-21T10:40:45Z, This is a fork of MySQL-replication-listener on launchpad. https://launchpad.net/mysql-replication-listener
+flipkart, ribbon, 1, Java, 0, 0, 2014-11-24T11:25:13Z, Ribbon is a Inter Process Communication (remote procedure calls) library with built in software load balancers. The primary usage model involves REST calls with various serialization scheme support.
+flipkart, zxing, 1, Java, 0, 0, 2014-11-26T10:31:32Z, Official ZXing ("Zebra Crossing") project home
+flipkart, linux, 0, C, 0, 0, 2014-11-27T05:07:55Z, Flipkart fork of Linux kernel
+flipkart, mtcp, 1, C, 0, 1, 2014-12-02T03:42:42Z, mTCP: A Highly Scalable User-level TCP Stack for Multicore Systems
+flipkart, netmap, 0, C, 0, 1, 2014-12-02T03:48:21Z, netmap and VALE - very fast packet I/O from userspace (FreeBSD/Linux)
+flipkart, Sql4D, 1, Java, 0, 0, 2014-12-04T12:02:41Z, Sql interface to druid.
+freshdesk, Marketo, 1, Ruby, 0, 0, 2012-08-08T13:30:30Z, Gem to interact with the Marketo SOAP API
+freshdesk, resque, 1, Ruby, 0, 0, 2012-08-23T15:34:06Z, Resque is a Redis-backed Ruby library for creating background jobs, placing them on multiple queues, and processing them later.
+freshdesk, deadlock_retry, 1, Ruby, 0, 0, 2012-09-25T16:58:13Z, Deadlock Retry plugin
+freshdesk, tire, 1, Ruby, 0, 2, 2012-10-12T10:49:43Z, A rich Ruby API and DSL for the ElasticSearch search engine/database
+freshdesk, fresh-samples, 0, Ruby, 7, 14, 2012-10-18T17:55:07Z, Samples of code created by freshdesk
+freshdesk, ruby-yui-compressor, 1, Ruby, 0, 2, 2012-10-29T10:18:33Z, A Ruby interface to YUI Compressor for minifying JavaScript and CSS assets.
+freshdesk, actionmailer-callbacks, 1, Ruby, 0, 0, 2012-11-29T16:52:55Z, add callbacks to actionmailer
+freshdesk, seamless_database_pool, 1, Ruby, 0, 1, 2013-01-02T19:44:23Z, Add support for master/slave database clusters in ActiveRecord to improve performance.
+freshdesk, socket.io, 1, JavaScript, 0, 0, 2013-01-05T17:37:59Z, Realtime application framework for Node.JS, with HTML5 WebSockets and cross-browser fallbacks support.
+freshdesk, octopus, 1, Ruby, 0, 1, 2013-01-07T06:44:14Z, Database Sharding for ActiveRecord
+freshdesk, after_commit, 1, Ruby, 0, 0, 2013-01-15T10:12:37Z, A Ruby on Rails plugin to add an after_commit callback. This can be used to trigger things only after the entire transaction is complete.
+freshdesk, cloudfront_asset_host, 1, Ruby, 0, 0, 2013-02-02T08:33:22Z, Easy deployment of your assets on CloudFront for Rails
+freshdesk, large-hadron-migrator, 1, Ruby, 0, 1, 2013-02-05T10:09:20Z, online schema change tool
+freshdesk, rinku, 1, C, 0, 0, 2013-02-13T14:25:25Z, Autolinking. Ruby. Yes, that's pretty much it.
+freshdesk, rails, 1, Ruby, 0, 0, 2013-02-14T08:19:24Z, Ruby on Rails
+freshdesk, fresh_pattern, 0, None, 0, 0, 2013-03-25T14:44:50Z, 
+freshdesk, ruby-openid, 1, Ruby, 0, 0, 2013-04-19T05:03:20Z, OpenID library for Ruby
+freshdesk, paperclip, 1, Ruby, 0, 0, 2013-09-02T15:12:29Z, Easy file attachment management for ActiveRecord
+freshdesk, fresh-smiles, 1, PHP, 4, 1, 2013-11-25T07:33:48Z, ZippyKid's Smiley based on Smiley by 37 Signals using the Freshdesk API
+freshdesk, akismetor, 1, Ruby, 0, 0, 2014-03-05T09:09:00Z, Akismetor 1.1 as a RubyGem
+freshdesk, rate-limiting, 1, Ruby, 0, 1, 2014-03-11T14:27:46Z, 
+freshdesk, mobihelp-android, 0, Java, 7, 6, 2014-05-21T12:09:06Z, 
+freshdesk, node_optimizer, 0, JavaScript, 0, 0, 2014-07-04T10:43:38Z, 
+freshdesk, socket.io-adapter, 1, JavaScript, 0, 0, 2014-07-21T17:34:43Z, 
+freshdesk, socket.io-redis, 1, None, 0, 0, 2014-07-21T17:35:23Z, 
+freshdesk, socket.io-emitter, 1, None, 0, 0, 2014-07-21T17:35:29Z, 
+freshdesk, hipchat_freshdesk_addon, 0, CSS, 0, 1, 2014-08-13T10:08:59Z, Hipchat Addon
+freshdesk, mobihelp-ios, 0, Objective-C, 2, 0, 2014-08-29T07:46:25Z, mobihelp sample codes
+freshdesk, omniauth-salesforce, 1, None, 0, 0, 2014-10-24T11:34:59Z, OmniAuth strategy for salesforce.com
+freshdesk, map-fields, 1, None, 0, 0, 2014-11-06T16:16:59Z, A Rails plugin to handle the mapping of an uploaded CSV file to an expected format
+freshdesk, api-freshservice, 0, CSS, 0, 0, 2014-12-24T06:26:08Z, For website
+hasgeek, doctypehtml5, 0, JavaScript, 16, 13, 2010-10-18T11:17:39Z, Website source for doctypehtml5.in
+hasgeek, confrouter, 0, Shell, 3, 1, 2010-10-29T14:57:53Z, Conference Router Project
+hasgeek, github-hook, 0, Python, 4, 1, 2010-11-17T20:39:50Z, GitHub commit hook using Flask and Python
+hasgeek, hasgeek.github.com, 0, None, 2, 0, 2011-01-07T09:40:42Z, HasGeek Code page
+hasgeek, lastuser, 0, Python, 113, 33, 2011-02-17T14:58:31Z, User management in each new app is a pain. This is the last time you should be doing it
+hasgeek, androidcamp, 0, Ruby, 3, 1, 2011-03-09T10:47:46Z, Website for androidcamp.in
+hasgeek, hasjob, 0, Python, 70, 43, 2011-04-21T09:29:49Z, Hasjob, the HasGeek job board
+hasgeek, billgate, 0, Python, 1, 0, 2011-05-20T17:46:31Z, HasGeek Billing Gateway
+hasgeek, flask-lastuser, 0, Python, 14, 7, 2011-05-20T17:51:17Z, Flask extension for Lastuser
+hasgeek, funnel, 0, Python, 20, 38, 2011-06-02T18:48:00Z, HasGeek Funnel
+hasgeek, phpcloud, 0, CSS, 1, 3, 2011-06-12T14:11:14Z, Website for Scaling PHP in the Cloud
+hasgeek, jsfoo-edition-1, 0, CSS, 6, 5, 2011-06-15T12:01:24Z, Website for jsfoo.in
+hasgeek, hasweb, 0, JavaScript, 3, 5, 2011-08-21T19:32:26Z, HasGeek's website
+hasgeek, droidcon, 0, JavaScript, 2, 7, 2011-10-02T18:01:13Z, Droidcon India
+hasgeek, geekup, 0, JavaScript, 3, 1, 2011-10-15T21:30:20Z, Geekup.in source code
+hasgeek, hascore, 0, Python, 1, 2, 2011-11-30T08:11:43Z, HasGeek Event API
+hasgeek, coaster, 0, Python, 26, 6, 2011-11-30T16:10:41Z, Common patterns for Flask apps
+hasgeek, hasgeek.tv, 0, Python, 7, 4, 2011-12-08T18:09:18Z, HasGeek TV
+hasgeek, baseframe, 0, JavaScript, 10, 14, 2011-12-09T20:53:29Z, Baseframe for HasGeek projects
+hasgeek, chatimp, 0, None, 1, 0, 2011-12-15T10:35:53Z, Web IRC link bot
+hasgeek, boxoffice, 0, CSS, 1, 0, 2012-01-16T05:47:45Z, Ticketing
+hasgeek, cartonama-workshop, 0, JavaScript, 0, 1, 2012-02-01T03:04:17Z, Website for the Cartonama workshop
+hasgeek, eventframe, 0, Python, 16, 6, 2012-02-03T14:12:27Z, Eventframe
+hasgeek, rootconf, 0, CSS, 1, 2, 2012-02-13T06:56:12Z, Rootconf Website
+hasgeek, metarefresh, 0, JavaScript, 3, 3, 2012-02-20T14:50:23Z, Meta Refresh website
+hasgeek, kharcha, 0, Python, 6, 4, 2012-02-24T09:10:51Z, Expense tracker
+hasgeek, hgapp, 0, Python, 4, 1, 2012-02-24T10:02:43Z, HasGeek App Boilerplate
+hasgeek, contactpoint, 0, Python, 1, 1, 2012-04-09T14:10:42Z, ContactPoint
+hasgeek, peopleflow, 0, Python, 4, 5, 2012-04-10T10:26:23Z, Peopleflow tracks participation and attendance at HasGeek events.
+hasgeek, hacknight, 0, JavaScript, 24, 11, 2012-05-07T12:23:05Z, HasGeek Hacknights
+hasgeek, paystation, 0, JavaScript, 2, 0, 2012-05-07T16:42:16Z, PayStation
+hasgeek, fifthelephant, 0, JavaScript, 3, 1, 2012-05-16T21:00:07Z, The Fifth Elephant
+hasgeek, imgee, 0, JavaScript, 0, 0, 2012-07-22T17:29:27Z, Image manager
+hasgeek, cartonama2012, 0, JavaScript, 1, 0, 2012-08-02T10:27:13Z, Cartonama
+hasgeek, jsfoo, 0, JavaScript, 5, 2, 2012-08-04T10:10:56Z, JSFoo 2012 and 2013
+hasgeek, blog, 0, Ruby, 0, 0, 2012-08-21T10:30:40Z, HasGeek Blog
+hasgeek, flask-commentease, 0, Python, 2, 0, 2012-09-13T10:52:09Z, Comments and voting as a Flask extension
+hasgeek, zalebi, 0, Java, 1, 3, 2012-10-13T19:37:48Z, HasGeek on the go
+hasgeek, outreach, 0, Python, 0, 0, 2013-01-31T13:49:16Z, HasGeek Outreach
+hasgeek, css-workshop, 1, JavaScript, 0, 0, 2013-02-01T11:21:45Z, hasgeek css workshop: 2013
+hasgeek, nodular, 0, Python, 1, 0, 2013-03-01T10:22:09Z, Reusable content objects for HasGeek apps
+hasgeek, workshops, 1, CSS, 0, 2, 2013-03-23T14:49:09Z, Workshop static pages
+hasgeek, serverdown, 0, None, 1, 0, 2013-03-25T12:12:54Z, Standby page for server downtime
+hasgeek, stashboard, 1, Python, 1, 0, 2013-03-25T12:37:02Z, An open-source status dashboard running on App Engine
+hasgeek, nodules, 0, Python, 0, 0, 2013-05-06T04:20:19Z, Content nodes for nodular
+hasgeek, hasnew, 0, Python, 1, 0, 2013-05-19T15:35:55Z, HasGeek News
+hasgeek, ef2, 0, None, 0, 0, 2013-07-03T12:48:08Z, Eventframe 2
+hasgeek, dukaan, 0, Python, 0, 0, 2013-08-10T14:35:58Z, HasGeek Shop
+hasgeek, hasdev, 0, Python, 2, 1, 2013-10-21T07:32:01Z, HasGeek development environment
+hasgeek, hasmail, 0, Python, 0, 0, 2013-12-12T10:38:35Z, HasGeek Mailer
+hasgeek, clonedoattend, 0, Python, 1, 0, 2013-12-18T11:37:19Z, Clone events on DoAttend and update event name and dates
+hasgeek, limeframe, 1, JavaScript, 0, 0, 2014-03-02T12:36:21Z, A responsive LimeSurvey template based on Bootstrap and HasGeek Baseframe
+hasgeek, cookiefree, 0, Python, 0, 0, 2014-03-31T13:43:21Z, Static, cacheable data for Baseframe sites
+hasgeek, oddc, 1, JavaScript, 0, 0, 2014-07-05T13:37:00Z, Opening Government Data in India
+hasgeek, packman, 0, Python, 0, 1, 2014-10-01T22:03:35Z, HasGeek asset packing management
+hasgeek, inspiring-sites, 0, None, 0, 0, 2014-11-12T03:22:20Z, Template for event websites
+hackerearth, django-storages, 1, Python, 3, 0, 2012-11-13T22:27:12Z, github version of django-storages ... Support for many storages (S3, MogileFS, etc) in Django. Documentation: http://django-storages.readthedocs.org
+hackerearth, developer.hackerearth.com, 0, CSS, 11, 10, 2013-02-02T10:26:05Z, HackerEarth API resource documentation
+hackerearth, hackerearth.vim, 0, VimL, 28, 5, 2013-03-05T17:40:38Z, HackerEarth Vim plugin to compile and run code from the comfort of your favorite editor.
+hackerearth, django-allauth, 0, Python, 5, 3, 2013-03-08T15:36:40Z, django-allauth can be used to provide authentication mechanism in a django project. It supports both native signup or login using third party applications
+hackerearth, engineering.hackerearth.com, 0, CSS, 4, 2, 2013-03-09T15:22:15Z, Blog about engineering and product @HackerEarth
+hackerearth, elock, 1, Erlang, 0, 0, 2013-03-31T12:21:07Z, A simple, fault-tolerant distributed lock server in erlang.
+hackerearth, hackerearth-chrome-extension, 0, CSS, 6, 1, 2013-10-20T09:09:50Z, Chrome extension for HackerEarth challenge updates.
+hackerearth, offline, 1, CSS, 1, 0, 2013-10-25T09:14:56Z, Automatically display online/offline indication to your users.
+hackerearth, django-debug-toolbar, 1, Python, 0, 0, 2013-10-27T19:26:41Z, A configurable set of panels that display various debug information about the current request/response.
+hackerearth, apache-mpm-settings, 1, Python, 0, 0, 2013-11-24T16:04:53Z, Scripts to evaluate Apache MPM configuration settings.
+hackerearth, hackerearth-api-connector-php, 0, PHP, 7, 0, 2013-12-31T13:11:22Z, PHP package which connects to the HackerEarth API for compiling/running code
+hackerearth, hackerearth-github-services, 0, None, 0, 0, 2014-04-12T12:27:52Z, Github Services Integration with HackerEarth
+hackerearth, jsscribble, 0, JavaScript, 0, 3, 2014-04-12T13:40:02Z, Online code editor for HTML, CSS, JavaScript
+hackerearth, hackerearth-api-connector-python, 0, Python, 1, 0, 2014-04-25T07:59:25Z, Python package to connect to HackerEarth API.
+hackerearth, news.hackerearth.com, 0, CSS, 1, 0, 2014-12-10T19:18:22Z, Posts about release of new features, products and updates at HackerEarth
+instamojo, inuit.css, 1, Shell, 0, 0, 2013-04-08T09:41:18Z, Powerful, scalable, Sass-based, BEM, OOCSS framework.
+instamojo, client-python, 0, Python, 2, 5, 2013-06-17T12:31:40Z, Instamojo API Client, Python implementation.
+instamojo, instamojo-py, 0, Python, 4, 3, 2013-09-19T05:59:52Z, Python library for Instamojo API
+instamojo, immoral, 1, JavaScript, 0, 0, 2013-09-23T13:14:36Z, A spunky clean flexible no-forced-design modal library.
+instamojo, instamojo-php, 1, PHP, 1, 1, 2013-10-22T10:50:57Z, A PHP wrapper for the instamojo API.
+instamojo, instamojo-wordpress-plugin, 1, PHP, 0, 0, 2013-10-22T10:51:41Z, Use this plugin to post Instamojo offers in your wordpress blog.
+instamojo, gomojo, 1, Go, 0, 0, 2013-11-07T07:39:09Z, Instamojo API wrapper written in Go
+instamojo, Instamojo-rb, 1, Ruby, 0, 0, 2014-01-27T10:12:41Z, Ruby wrapper for Instamojo API v1
+instamojo, slackard, 1, Python, 1, 0, 2014-09-05T13:15:17Z, A bot for the slack.com group collaboration tool
+instamojo, instamojo-prestashop, 1, PHP, 1, 0, 2014-09-22T06:51:37Z, An integration module for integrating Instamojo to Prestashop
+instamojo, responsive-tooltip, 0, CSS, 1, 0, 2014-09-23T11:42:51Z, 
+instamojo, huxley, 1, None, 0, 0, 2014-10-20T14:36:42Z, Huxley is a test-like system for catching visual regressions in Web applications. It watches you browse, takes screenshots, and tells you when they change.
+instamojo, bravo, 0, Python, 0, 0, 2014-10-22T07:22:28Z, A tool to work with html element classes - for porting between/refactoring design frameworks.
+myntra, deploy, 1, Shell, 0, 0, 2014-03-22T19:06:50Z, Minimalistic deployment shell script
+myntra, AFNetworking, 1, None, 0, 0, 2014-07-15T10:52:52Z, A delightful iOS and OS X networking framework
+myntra, Mantle, 1, None, 0, 0, 2014-07-15T10:53:24Z, Model framework for Cocoa and Cocoa Touch
+myntra, librato-iOS, 1, Objective-C, 0, 0, 2014-07-24T04:27:34Z, An iOS library for Librato metric tracking
+myntra, ARAnalytics, 1, Objective-C, 0, 0, 2014-07-24T04:49:26Z, Simplify your iOS/Mac analytics
+myntra, ObjectiveSugar, 1, None, 0, 0, 2014-08-07T06:16:08Z, ObjectiveC additions for humans. Ruby style.
+myntra, MYNStickyFlowLayout, 0, Objective-C, 133, 7, 2014-08-19T14:15:03Z, Drop-in sticky headers and footers for UICollectionView.
+myntra, elasticsearch, 1, Shell, 0, 0, 2014-10-09T10:53:35Z, ElasticSearch Dockerfile for trusted automated Docker builds.
+myntra, gplus-web-auth, 0, JavaScript, 0, 0, 2014-10-10T10:27:20Z, Google+ authentication with client-side sessions for Node.js
+myntra, robospice, 1, None, 0, 0, 2014-10-30T21:08:39Z, Repo of the Open Source Android library : RoboSpice. RoboSpice is a modular android library that makes writing asynchronous long running tasks easy. It is specialized in network requests, supports caching and offers REST requests out-of-the box using extension modules.
+mysmartprice, gearman-workers-cookbooks, 0, Ruby, 0, 0, 2014-08-29T14:43:04Z, 
+mysmartprice, tech-blog, 0, JavaScript, 0, 1, 2014-10-15T04:29:28Z, Tech Blog of MySmartPrice
+practo, mail_transport_postmark, 1, PHP, 2, 1, 2010-08-10T05:46:17Z, Allowing Zend_Mail to deliver messages using the Postmark service
+practo, practics-php, 0, PHP, 1, 0, 2011-09-03T09:28:03Z, PHP API for Practics
+practo, dompdf, 0, PHP, 2, 0, 2011-09-12T18:25:57Z, Mirror of dompdf library with some customization
+practo, monolog, 1, PHP, 3, 1, 2011-10-19T17:02:06Z, Logging for PHP 5.3
+practo, PractoBlog, 0, PHP, 2, 0, 2011-11-07T12:33:22Z, Custom WordPress theme for Practo blog
+practo, r5d4, 0, Python, 6, 1, 2012-01-02T14:17:51Z, Analytics Aggregation Engine using Redis and Flask
+practo, libphonenumber-for-php, 1, PHP, 22, 5, 2012-05-12T08:15:39Z, PHP version of Google's phone number handling library
+practo, python-openid, 1, Python, 1, 0, 2012-05-12T08:31:23Z, OpenID library for Python
+practo, php-openid, 1, PHP, 1, 0, 2012-05-12T08:31:41Z, OpenID library for PHP5
+practo, CacheBundle, 1, PHP, 1, 0, 2012-06-20T14:55:04Z, Symfony2 bundle for memcache and other caching interfaces
+practo, fullcalendar, 1, JavaScript, 1, 1, 2012-07-03T20:49:10Z, Full-sized drag & drop event calendar (jQuery plugin)
+practo, flask-mail, 1, Python, 1, 0, 2012-07-27T15:00:55Z, Flask SMTP extension using Lamson
+practo, MyCQ, 0, Python, 2, 1, 2012-07-29T15:51:31Z, MyCQ is a simple website written in Flask to give MCQ test
+practo, doctrine-migrations, 0, PHP, 0, 0, 2012-08-30T15:43:55Z, doctrine migration v1
+practo, KunstmaanSentryBundle, 1, PHP, 1, 0, 2013-02-11T05:22:03Z, The SentryBundle for Symfony2 helps binds the raven-php module into a Symfony2 bundle for easy use with the framework. It will autoload an exception handler into the framework, so that all uncaught errors are sent to a Sentry server.
+practo, raven-php, 1, PHP, 0, 0, 2013-03-06T06:27:37Z, Raven is a PHP client for Sentry (getsentry.com)
+practo, seyren, 1, Java, 0, 0, 2013-04-12T17:11:52Z, An alerting dashboard for Graphite
+practo, Kal, 0, Objective-C, 0, 0, 2013-05-28T09:37:30Z, 
+practo, ActionBarSherlock, 0, Java, 0, 0, 2013-07-24T13:43:47Z, 
+practo, whoami, 1, CSS, 1, 1, 2013-09-14T14:52:45Z, Bangalore Hack 2013
+practo, Sentry-Android, 1, Java, 0, 0, 2013-10-09T13:53:22Z, Android client for Sentry
+practo, mailer-silex, 0, CSS, 0, 0, 2013-11-26T04:47:28Z, Practo Mailer Silex
+practo, mailer-flask, 0, CSS, 0, 0, 2013-11-26T05:26:19Z, Practo mailer boilerplate code
+practo, ActionBarPlus, 1, Java, 0, 0, 2014-01-21T11:43:27Z, ActionBar Plus
+practo, sheql, 0, JavaScript, 4, 3, 2014-06-06T10:02:06Z, Schedule Query Language
+practo, scalatra-openid-consumer, 1, None, 0, 0, 2014-09-04T08:20:43Z, Scalatra OpenID Consumer
+practo, gelf-php, 1, PHP, 0, 0, 2014-10-09T05:23:42Z, A php implementation to send log-files to a gelf compatible backend like graylog
+practo, angularjs-google-maps, 1, None, 0, 0, 2014-11-11T10:18:46Z, The Simplest AngularJS Google Maps V3 Directive 
+practo, php-hl7, 0, PHP, 0, 0, 2014-12-18T05:54:22Z, HL7 Message Parser/Generator for PHP
+shephertz, AppWarp_JAVA_SDK_JAR, 0, Java, 0, 1, 2012-09-12T12:01:18Z, Include the JAR files from the latest version and add use in your application
+shephertz, AppWarp_WP7_SDK_DLL, 0, C#, 1, 0, 2012-09-12T13:18:28Z, AppWarp client SDK files for WP7
+shephertz, AppWarp_JME_SDK_JAR, 0, Java, 2, 0, 2012-09-12T13:24:13Z, AppWarp client SDK JAR files for JME.
+shephertz, AppWarp_iOS_SDK_Framework, 0, Objective-C, 5, 2, 2012-09-12T13:29:09Z, AppWarp Framework file for iOS
+shephertz, AppWarp_Android_SDK_JAR, 0, Java, 22, 158, 2012-09-12T13:31:03Z, AppWarp client SDK JAR files for Android.
+shephertz, AppWarp_JS_HTML5_SDK, 0, JavaScript, 5, 7, 2012-10-09T10:37:05Z, AppWarp client SDK and sample for HTML5/JavaScript applications
+shephertz, App42_JAVASCRIPT_SDK, 0, CSS, 3, 4, 2012-10-11T06:21:24Z, App42 Cloud API Client SDK files for JavaScript
+shephertz, App42_JAVA_SDK, 0, Java, 0, 0, 2012-10-11T06:23:23Z, App42 Cloud API Client SDK JAR files for Java
+shephertz, App42_PHP_SDK, 0, PHP, 0, 2, 2012-10-11T06:24:18Z, App42 Cloud API Client SDK files for PHP
+shephertz, App42_RUBY_SDK, 0, JavaScript, 0, 1, 2012-10-11T06:25:19Z, App42 Cloud API Client SDK files for Ruby
+shephertz, App42_ANDROID_SDK, 0, Java, 0, 6, 2012-10-11T06:26:22Z, App42 Cloud API Client SDK files for Android
+shephertz, App42_J2ME_SDK, 0, CSS, 0, 2, 2012-10-11T06:27:19Z, App42 Cloud API Client SDK files for J2ME
+shephertz, App42_CSHARP_SDK, 0, JavaScript, 0, 0, 2012-10-11T06:28:04Z, App42 Cloud API Client SDK files for C#
+shephertz, App42_WINDOWS_SDK, 0, C#, 0, 2, 2012-10-11T06:28:44Z, App42 Cloud API Client SDK files for Windows Phone
+shephertz, App42_iOS_SDK, 0, None, 1, 0, 2012-10-11T06:29:50Z, App42 Cloud API Client SDK files for iOS
+shephertz, app-forty-two-paas-plugin, 0, None, 0, 2, 2012-10-12T09:22:08Z, App42 Grails Plugin
+shephertz, monetization-admin, 0, Groovy, 0, 0, 2012-10-30T07:42:14Z, monetization-admin
+shephertz, App42_CustomCode_Sample, 0, Java, 0, 2, 2012-12-17T07:23:24Z, 
+shephertz, social-leaderboard, 0, Java, 2, 1, 2012-12-28T05:34:18Z, An android library project that can be easily integrated in to your game. Illustrates how to use App42 leaderboard cloud APIs.
+shephertz, Tutorials_WP_7_8, 0, C#, 1, 0, 2013-01-15T12:07:44Z, Tutorials on building Windows Phone 7 and 8 apps using App42 API and AppWarp.
+shephertz, App42_NokiaS40_SDK, 0, None, 0, 0, 2013-01-16T12:25:14Z, 
+shephertz, Cocos2DSamples, 0, Objective-C, 6, 6, 2013-01-20T12:07:11Z, Sample projects using Cocos2D and Shephertz SDKs
+shephertz, AppWarpMono, 0, C#, 1, 0, 2013-02-09T05:08:44Z, Cross platform portable dll for MonoDroid and MonoTouch
+shephertz, App42_Mono_SDK, 0, None, 0, 1, 2013-02-14T07:15:33Z, 
+shephertz, AppWarpWindowsSDK, 0, None, 0, 0, 2013-03-20T06:03:34Z, AppWarp sdk dll files for building windows desktop applications
+shephertz, App42_BB10_SDK, 0, CSS, 1, 0, 2013-03-20T13:31:34Z, 
+shephertz, App42_Dev_Help, 0, None, 0, 0, 2013-04-08T11:19:28Z, 
+shephertz, AppWarpUnity, 0, ASP, 7, 20, 2013-04-17T13:13:32Z, Unity3D library for AppWarp
+shephertz, App42_Unity3D_SDK, 0, C#, 6, 3, 2013-04-29T13:09:51Z, 
+shephertz, App42-Traffic-Junkie, 0, Java, 2, 2, 2013-05-13T07:18:15Z, 
+shephertz, junglechaos_social, 1, JavaScript, 0, 1, 2013-05-16T09:37:38Z, Facebook version of Jungle Chaos
+shephertz, AppWarpDeveloper, 0, None, 19, 9, 2013-05-16T09:44:20Z, 
+shephertz, App42-Tic-Tac-Toe, 0, Java, 8, 7, 2013-05-20T09:17:10Z, 
+shephertz, AppWarpMarmalade, 0, C++, 1, 1, 2013-06-10T15:55:25Z, Marmalade SDK binaries and guide
+shephertz, App42_SamsungTV_SDK, 0, JavaScript, 0, 0, 2013-06-15T08:40:12Z, 
+shephertz, Sales, 0, None, 0, 0, 2013-06-17T12:09:04Z, Shephert Sales
+shephertz, AppWarpAS3Library, 0, ActionScript, 7, 9, 2013-06-27T08:20:52Z, AppWarp AS 3 library for Flash and Flex applications.
+shephertz, App42_Push_Sample_Unity, 0, ASP, 4, 2, 2013-07-03T16:13:23Z, App42 Push Sample for Unity
+shephertz, App42Marmalade, 0, C++, 0, 1, 2013-07-05T05:10:37Z, App42 cloud api library for marmalade
+shephertz, App42-Android-Push-Sample, 0, Java, 1, 3, 2013-07-08T08:12:39Z, 
+shephertz, AppWarpCocos2DX, 0, C++, 9, 23, 2013-07-09T19:39:42Z, Cocos2DX SDK for AppWarp
+shephertz, App42_Push_Unity_Lib, 0, Java, 0, 0, 2013-07-18T14:12:58Z, App42_Push_Unity_Lib
+shephertz, App42_PaaS_SampleApps, 0, PHP, 0, 0, 2013-07-19T19:09:51Z, Sample Apps for App42 PaaS Platform
+shephertz, App42-ActionScript-SDK, 0, ActionScript, 3, 0, 2013-07-23T08:43:12Z, 
+shephertz, App42-iOS-Push-Sample, 0, Objective-C, 0, 0, 2013-08-05T13:03:38Z, 
+shephertz, App42iOSUnity3DPushPlugin, 0, Objective-C, 4, 7, 2013-08-08T06:25:46Z, App42 iOS push notification plugin for Unity3D and sample
+shephertz, AppWarpAndroidSamples, 0, Java, 11, 27, 2013-08-08T07:40:30Z, Samples Android games and applications using AppWarp
+shephertz, spacewarefare, 1, None, 0, 0, 2013-08-14T05:30:38Z, 
+shephertz, App42-Android-Analytics, 1, Java, 0, 0, 2013-08-19T08:09:04Z, 
+shephertz, App42-Buddy-JS-Sample, 0, JavaScript, 0, 0, 2013-09-05T10:27:24Z, 
+shephertz, AppWarpLua, 0, Lua, 4, 16, 2013-09-12T05:52:59Z, Lua SDK files for AppWarp and samples
+shephertz, App42PaaS-Java-Sample, 0, CSS, 0, 0, 2013-09-17T18:19:37Z, Sample Java App for App42 PaaS Platform
+shephertz, App42PaaS-Ruby-Sample, 0, CSS, 0, 0, 2013-09-17T18:21:03Z, Sample Ruby App for App42 PaaS Platform
+shephertz, App42PaaS-PHP-Sample, 0, CSS, 0, 0, 2013-09-17T18:21:44Z, Sample PHP App for App42 PaaS Platform
+shephertz, App42PaaS-Grails-Sample, 0, CSS, 0, 0, 2013-09-17T18:22:33Z, Sample Grails App for App42 PaaS Platform
+shephertz, App42PaaS-Sinatra-Sample, 0, CSS, 0, 0, 2013-09-17T18:23:25Z, Sample Sinatra App for App42 PaaS Platform
+shephertz, App42PaaS-Rails-Sample, 0, Ruby, 0, 1, 2013-09-17T18:23:57Z, Sample Rails App for App42 PaaS Platform
+shephertz, App42PaaS-Roo-Sample, 0, CSS, 0, 0, 2013-09-17T18:24:41Z, Sample Roo App for App42 PaaS Platform
+shephertz, App42PaaS-Java-MySQL-Sample, 0, Java, 0, 2, 2013-09-17T18:26:06Z, Sample Java App with MySQL for App42 PaaS Platform
+shephertz, App42PaaS-Java-PostgreSQL-Sample, 0, Java, 0, 0, 2013-09-17T18:26:39Z, Sample Java App with PostgreSQL for App42 PaaS Platform
+shephertz, App42PaaS-Java-MongoDB-Sample, 0, Java, 0, 0, 2013-09-17T18:27:18Z, Sample Java App with MongoDB for App42 PaaS Platform
+shephertz, App42PaaS-Java-CouchDB-Sample, 0, Java, 0, 0, 2013-09-17T18:27:50Z, Sample Java App with CouchDB for App42 PaaS Platform
+shephertz, App42PaaS-Ruby-MySQL-Sample, 0, CSS, 0, 2, 2013-09-17T18:28:42Z, Sample Ruby App with MySQL for App42 PaaS Platform
+shephertz, App42PaaS-Ruby-PostgreSQL-Sample, 0, Ruby, 0, 0, 2013-09-17T18:29:21Z, Sample Ruby App with PostgreSQL for App42 PaaS Platform
+shephertz, App42PaaS-Ruby-MongoDB-Sample, 0, CSS, 0, 0, 2013-09-17T18:30:03Z, Sample Ruby App with MongoDB for App42 PaaS Platform
+shephertz, App42PaaS-Ruby-CouchDB-Sample, 0, CSS, 0, 0, 2013-09-17T18:30:40Z, Sample Ruby App with CouchDB for App42 PaaS Platform
+shephertz, App42PaaS-PHP-MySQL-Sample, 0, PHP, 0, 2, 2013-09-17T18:31:18Z, Sample PHP App with MySQL for App42 PaaS Platform
+shephertz, App42PaaS-PHP-PostgreSQL-Sample, 0, PHP, 0, 0, 2013-09-17T18:31:49Z, Sample PHP App with PostgreSQL for App42 PaaS Platform
+shephertz, App42PaaS-PHP-MongoDB-Sample, 0, PHP, 0, 0, 2013-09-17T18:32:20Z, Sample PHP App with MongoDB for App42 PaaS Platform
+shephertz, App42PaaS-PHP-CouchDB-Sample, 0, PHP, 0, 0, 2013-09-17T18:32:54Z, Sample PHP App with CouchDB for App42 PaaS Platform
+shephertz, App42PaaS-Grails-MySQL-Sample, 0, CSS, 0, 1, 2013-09-17T18:33:25Z, Sample Grails App with MySQL for App42 PaaS Platform
+shephertz, App42PaaS-Grails-PostgreSQL-Sample, 0, CSS, 0, 0, 2013-09-17T18:34:01Z, Sample Grails App with PostgreSQL for App42 PaaS Platform
+shephertz, App42PaaS-Grails-MongoDB-Sample, 0, CSS, 0, 0, 2013-09-17T18:34:32Z, Sample Grails App with MongoDB for App42 PaaS Platform
+shephertz, App42PaaS-Grails-CouchDB-Sample, 0, None, 0, 0, 2013-09-17T18:35:07Z, Sample Grails App with CouchDB for App42 PaaS Platform
+shephertz, App42PaaS-Rails-MySQL-Sample, 0, Ruby, 0, 3, 2013-09-17T18:35:54Z, Sample Rails App with MySQL for App42 PaaS Platform
+shephertz, App42PaaS-Rails-PostgreSQL-Sample, 0, Ruby, 0, 0, 2013-09-17T18:36:26Z, Sample Rails App with PostgreSQL for App42 PaaS Platform
+shephertz, App42PaaS-Rails-MongoDB-Sample, 0, Ruby, 0, 0, 2013-09-17T18:37:01Z, Sample Rails App with MongoDB for App42 PaaS Platform
+shephertz, App42PaaS-Rails-CouchDB-Sample, 0, Ruby, 0, 0, 2013-09-17T18:38:02Z, Sample Rails App with CouchDB for App42 PaaS Platform
+shephertz, App42PaaS-Sinatra-MySQL-Sample, 0, CSS, 0, 2, 2013-09-17T18:38:43Z, Sample Sinatra App with MySQL for App42 PaaS Platform
+shephertz, App42PaaS-Sinatra-PostgreSQL-Sample, 0, CSS, 0, 0, 2013-09-17T18:41:03Z, Sample Sinatra App with PostgreSQL for App42 PaaS Platform
+shephertz, App42PaaS-Sinatra-MongoDB-Sample, 0, CSS, 0, 0, 2013-09-17T18:41:34Z, Sample Sinatra App with MongoDB for App42 PaaS Platform
+shephertz, App42PaaS-Sinatra-CouchDB-Sample, 0, CSS, 0, 0, 2013-09-17T18:42:03Z, Sample Sinatra App with CouchDB for App42 PaaS Platform
+shephertz, App42PaaS-Roo-MySQL-Sample, 0, CSS, 0, 0, 2013-09-17T18:42:40Z, Sample Roo App with MySQL for App42 PaaS Platform
+shephertz, App42PaaS-Roo-PostgreSQL-Sample, 0, CSS, 0, 0, 2013-09-17T18:43:07Z, Sample Roo App with PostgreSQL for App42 PaaS Platform
+shephertz, App42PaaS-Roo-MongoDB-Sample, 0, None, 0, 0, 2013-09-17T18:43:34Z, Sample Roo App with MongoDB for App42 PaaS Platform
+shephertz, App42PaaS-Roo-CouchDB-Sample, 0, None, 0, 0, 2013-09-17T18:44:02Z, Sample Roo App with CouchDB for App42 PaaS Platform
+shephertz, AppWarpS2Public, 0, JavaScript, 1, 0, 2013-11-06T08:19:32Z, AppWarp S2  authoritative on premise solution
+shephertz, AppWarpMarmaladeSource, 0, C++, 0, 0, 2013-12-02T07:16:55Z, 
+shephertz, App42PaaS-Node-Sample, 0, CSS, 0, 1, 2013-12-06T09:02:05Z, Sample Node App for App42 PaaS Platform
+shephertz, App42PaaS-Node-MongoDB-Sample, 0, JavaScript, 0, 0, 2013-12-06T09:04:48Z, Sample Node App with MongoDB for App42 PaaS Platform
+shephertz, App42PaaS-Node-MySQL-Sample, 0, JavaScript, 0, 2, 2013-12-06T09:05:55Z, Sample Node App with MySQL for App42 PaaS Platform
+shephertz, App42PaaS-Node-PostgreSQL-Sample, 0, JavaScript, 1, 0, 2013-12-06T09:06:53Z, Sample Node App with PostgreSQL for App42 PaaS Platform
+shephertz, App42PaaS-Node-CouchDB-Sample, 0, JavaScript, 0, 0, 2013-12-06T09:10:41Z, Sample Node App with CouchDB for App42 PaaS Platform
+shephertz, App42_Corona_SDK, 0, Lua, 0, 1, 2013-12-06T11:08:09Z, 
+shephertz, App42_Cocos2DX_SDK, 0, C++, 0, 2, 2013-12-09T13:52:16Z, App42_Cocos2DX_SDK
+shephertz, App42PaaS-CompoundJS-PostgreSQL-Sample, 0, JavaScript, 0, 0, 2013-12-19T12:32:37Z, Sample CompoundJS App with PostgreSQL for App42 PaaS Platform
+shephertz, App42PaaS-CompoundJS-Sample, 0, JavaScript, 0, 0, 2013-12-19T12:33:45Z, Sample CompoundJS App for App42 PaaS Platform
+shephertz, App42PaaS-CompoundJS-MySQL-Sample, 0, JavaScript, 0, 1, 2013-12-19T12:34:35Z, Sample CompoundJS App with MySQL for App42 PaaS Platform
+shephertz, App42PaaS-CompoundJS-MongoDB-Sample, 0, JavaScript, 0, 0, 2013-12-19T12:36:05Z, Sample CompoundJS App with MongoDB for App42 PaaS Platform
+shephertz, App42PaaS-CompoundJS-CouchDB-Sample, 0, JavaScript, 0, 0, 2013-12-19T12:36:47Z, Sample CompoundJS App with CouchDB for App42 PaaS Platform
+shephertz, AppWarpS2Docs, 0, None, 8, 2, 2014-01-02T06:14:53Z, Documentation wiki for using AppWarp On-Premise
+shephertz, App42PaaS-Node-Redis-Sample, 0, JavaScript, 0, 0, 2014-01-07T10:33:41Z, Sample Node App with Redis for App42 PaaS Platform
+shephertz, App42PaaS-CompoundJS-Redis-Sample, 0, JavaScript, 0, 0, 2014-01-07T10:43:14Z, Sample CompoundJS App with Redis for App42 PaaS Platform
+shephertz, App42PaaS-PHP-Redis-Sample, 0, PHP, 0, 0, 2014-01-07T10:43:57Z, Sample PHP App with Redis for App42 PaaS Platform
+shephertz, App42PaaS-Java-Redis-Sample, 0, Java, 0, 0, 2014-01-07T10:44:22Z, Sample Java App with Redis for App42 PaaS Platform
+shephertz, App42PaaS-Roo-Redis-Sample, 0, None, 0, 0, 2014-01-07T10:44:54Z, Sample Roo App with Redis for App42 PaaS Platform
+shephertz, App42PaaS-Grails-Redis-Sample, 0, CSS, 0, 0, 2014-01-07T10:45:27Z, Sample Grails App with Redis for App42 PaaS Platform
+shephertz, App42PaaS-Sinatra-Redis-Sample, 0, Ruby, 0, 0, 2014-01-07T10:45:59Z, Sample Sinatra App with Redis for App42 PaaS Platform
+shephertz, App42PaaS-Ruby-Redis-Sample, 0, Ruby, 0, 0, 2014-01-07T10:46:18Z, Sample Ruby App with Redis for App42 PaaS Platform
+shephertz, App42PaaS-Rails-Redis-Sample, 0, Ruby, 0, 0, 2014-01-07T10:46:46Z, Sample Rails App with Redis for App42 PaaS Platform
+shephertz, App42PaaS-Python-Sample, 0, Python, 0, 0, 2014-02-27T14:14:25Z, Sample Python App for App42 PaaS Platform
+shephertz, App42PaaS-Python-MongoDB-Sample, 0, Python, 0, 0, 2014-02-27T14:15:14Z, Sample Python App with MongoDB for App42 PaaS Platform
+shephertz, App42PaaS-Python-CouchDB-Sample, 0, Python, 0, 0, 2014-02-27T14:16:03Z, Sample Python App with CouchDB for App42 PaaS Platform
+shephertz, App42PaaS-Python-Redis-Sample, 0, Python, 0, 0, 2014-02-27T14:16:50Z, Sample Python App with Redis for App42 PaaS Platform
+shephertz, App42PaaS-Python-PostgreSQL-Sample, 0, Python, 1, 0, 2014-02-27T14:17:26Z, Sample Python App with PostgreSQL for App42 PaaS Platform
+shephertz, App42PaaS-Python-MySQL-Sample, 0, Python, 0, 2, 2014-02-27T14:18:02Z, Sample Python App with MySQL for App42 PaaS Platform
+shephertz, App42PaaS-Go-Redis-Sample, 0, Go, 0, 2, 2014-03-05T06:26:29Z, Sample Go App with Redis for App42 PaaS Platform
+shephertz, App42PaaS-Go-MongoDB-Sample, 0, Go, 0, 2, 2014-03-05T06:27:37Z, Sample Go App with MongoDB for App42 PaaS Platform
+shephertz, App42PaaS-Go-PostgreSQL-Sample, 0, Go, 1, 3, 2014-03-05T06:28:24Z, Sample Go App with PostgreSQL for App42 PaaS Platform
+shephertz, App42PaaS-Go-MySQL-Sample, 0, Go, 0, 2, 2014-03-05T06:29:15Z, Sample Go App with MySQL for App42 PaaS Platform
+shephertz, App42PaaS-Go-Sample, 0, CSS, 0, 1, 2014-03-05T06:30:02Z, Sample Go App for App42 PaaS Platform
+shephertz, AppWarpConstruct2Community, 0, JavaScript, 1, 0, 2014-03-26T07:25:49Z, This repo contains contributions from the community to support Construct 2
+shephertz, AppWarpWinRT, 0, C#, 0, 0, 2014-05-02T09:28:53Z, WinRT compatible C# SDK for AppWarp
+shephertz, App42-AppMethod-API, 0, C++, 0, 2, 2014-06-04T13:21:06Z, App42 APIs for AppMethod
+shephertz, App42PaaS-Martini-Redis-Sample, 0, Go, 0, 1, 2014-06-05T08:11:03Z, Sample Martini App with Redis for App42 PaaS Platform
+shephertz, App42PaaS-Martini-MongoDB-Sample, 0, Go, 0, 1, 2014-06-05T08:13:51Z, Sample Martini App with MongoDB for App42 PaaS Platform
+shephertz, App42PaaS-Martini-PostgreSQL-Sample, 0, Go, 1, 1, 2014-06-05T08:14:48Z, Sample Martini App with PostgreSQL for App42 PaaS Platform
+shephertz, App42PaaS-Martini-MySQL-Sample, 0, Go, 0, 2, 2014-06-05T08:15:54Z, Sample Martini App with MySQL for App42 PaaS Platform
+shephertz, App42PaaS-Martini-Sample, 0, None, 0, 0, 2014-06-05T08:16:47Z, Sample Martini App for App42 PaaS Platform
+shephertz, App42PaaS-Martini-CouchDB-Sample, 0, None, 0, 0, 2014-06-05T08:18:24Z, Sample Martini App with CouchDB for App42 PaaS Platform
+shephertz, AppWarp.Net, 0, C#, 0, 0, 2014-07-22T04:53:40Z, AppWarp .NET SDK
+shephertz, App42PaaS-Revel-MySQL-Sample, 0, Go, 0, 0, 2014-07-24T11:25:10Z, Sample Revel App with MySQL for App42 PaaS Platform
+shephertz, App42PaaS-Revel-Redis-Sample, 0, Go, 0, 0, 2014-07-24T11:27:47Z, Sample Revel App with Redis for App42 PaaS Platform
+shephertz, App42PaaS-Revel-MongoDB-Sample, 0, Go, 0, 0, 2014-07-24T11:29:19Z, Sample Revel App with MongoDB for App42 PaaS Platform
+shephertz, App42PaaS-Revel-PostgreSQL-Sample, 0, Go, 0, 0, 2014-07-24T11:29:56Z, Sample Revel App with PostgreSQL for App42 PaaS Platform
+shephertz, App42PaaS-Revel-CouchDB-Sample, 0, None, 0, 0, 2014-07-24T11:30:56Z, Sample Revel App with CouchDB for App42 PaaS Platform
+shephertz, App42PaaS-Revel-Sample, 0, None, 0, 0, 2014-07-24T11:31:32Z, Sample Revel App for App42 PaaS Platform
+shephertz, App42_Node_SDK, 0, JavaScript, 0, 0, 2014-09-08T08:45:30Z, App42 Cloud API Client SDK files for Node
+urbanladder, exotel, 0, Ruby, 1, 3, 2013-06-28T10:39:38Z, Ruby interface to the Exotel API
+urbanladder, cookbooks, 0, Ruby, 0, 1, 2013-10-14T19:12:20Z, 
+urbanladder, opsworks-cookbooks, 1, Ruby, 0, 0, 2013-11-04T16:34:46Z, Chef Cookbooks for the AWS OpsWorks Service
+urbanladder, melinis, 1, Ruby, 0, 2, 2014-05-10T08:52:28Z, 
+urbanladder, uniware, 0, Ruby, 0, 3, 2014-05-10T09:00:45Z, Ruby interface to the Uniware API
+urbanladder, spree_static_content, 1, Ruby, 0, 1, 2014-06-08T06:55:12Z, Extention to manage the static pages for your spree shop
+webengage, TourMe.js, 0, JavaScript, 0, 0, 2014-08-31T13:52:33Z, A JS API to trigger a chain of speech bubble style messages on your website for better user onboarding
+wingify, wingify.github.io, 0, CSS, 5, 1, 2013-05-13T19:35:24Z, Engineering blog @ Wingify
+wingify, lua-resty-rabbitmqstomp, 0, Lua, 45, 13, 2013-05-30T13:00:59Z, Opinionated Lua RabbitMQ client library for the ngx_lua apps based on the cosocket API
+wingify, rabbitmq-munin, 1, Shell, 4, 0, 2013-05-30T13:15:23Z, Munin-plugins for RabbitMQ
+wingify, please.js, 0, JavaScript, 211, 15, 2013-06-17T08:30:30Z, A simple PostMessage communication library.
+wingify, agentredrabbit, 0, Python, 49, 4, 2013-07-12T12:00:11Z, Transport agent that moves data from Redis to RabbitMQ
+wingify, angular-translate, 1, JavaScript, 0, 0, 2013-11-14T13:10:17Z, i18n in your Angular apps, made easy.
+wingify, ui-router, 1, JavaScript, 0, 1, 2013-11-26T11:32:41Z, UI-Router for Nested Routing by the AngularUI Team!
+wingify, bootstrap, 1, JavaScript, 0, 1, 2014-02-08T10:45:59Z, Native AngularJS (Angular) directives for Twitter's Bootstrap. Small footprint (5kB gzipped!), no 3rd party JS dependencies (jQuery, bootstrap JS) required!
+wingify, ngQuickDate, 1, CoffeeScript, 0, 0, 2014-02-12T14:17:34Z, An Angular.js Date/Time picker directive that stresses speed of data entry and configuration
+wingify, heatmap.js, 1, JavaScript, 0, 1, 2014-02-19T16:46:04Z, JavaScript Library for HTML5 canvas based heatmaps
+wingify, angular-date-range-picker, 1, CoffeeScript, 0, 0, 2014-03-29T14:28:28Z, Pure Angular date range picker, no jQuery
+wingify, VWO-iOS, 0, Ruby, 5, 2, 2014-04-23T18:30:58Z, VWO SDK for A/B Testing iOS apps
+wingify, resource-manager, 0, CSS, 0, 0, 2014-07-06T19:57:44Z, 
+wingify, vnc, 0, C, 1, 0, 2014-07-18T09:21:37Z, VNC server application for iOS Simulators running on mac machines
+wingify, dom-comparator, 0, JavaScript, 129, 8, 2014-08-07T14:18:44Z, A JS Library that compares two DOM Nodes and outputs what changed between the two.
+wingify, raven-js, 1, JavaScript, 0, 0, 2014-08-19T06:05:09Z, JavaScript client for Sentry
+wingify, metamorph.js, 1, None, 0, 0, 2014-09-24T12:32:59Z, 
+wingify, qunit, 1, JavaScript, 0, 0, 2014-09-29T09:07:21Z, An easy-to-use JavaScript Unit Testing framework.
+wingify, angularjs-tips, 0, None, 11, 1, 2014-10-02T10:31:09Z, Tips and tricks for doing things in AngularJS framework.
+wingify, bindonce, 1, None, 0, 0, 2014-10-27T10:40:52Z, Zero watches binding for AngularJs
+wingify, angular.js, 1, None, 0, 0, 2014-10-29T07:32:18Z, HTML enhanced for web apps
+wingify, vdom, 1, JavaScript, 0, 0, 2014-11-26T12:34:31Z, A DOM create and patch algorithm for vtree
