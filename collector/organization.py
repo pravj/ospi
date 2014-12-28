@@ -32,7 +32,7 @@ class Organization:
 
         file_path = os.path.join(os.path.dirname(__file__), self.data_file)
 
-        with open(os.path.abspath(file_path), 'w') as f:
+        with open(os.path.abspath(file_path), 'a') as f:
             f.write(data_string)
 
     def org_info(self):
@@ -48,21 +48,21 @@ class Organization:
             self.repo_info()
             self.member_info()
 
-    def repo_info(self, attempt = 1):
-        response = self.postman.request('repo_list', page = attempt)
+    def repo_info(self, attempt=1):
+        response = self.postman.request('repo_list', page=attempt)
 
         if (response.status_code == requests.codes.ok):
             if (len(response.json()) != 0):
                 for repo in response.json():
                     self.repo_list.append(repo['name'])
 
-                self.repo_info(attempt = attempt + 1)
+                self.repo_info(attempt=attempt + 1)
 
-    def member_info(self, attempt = 1):
-        response = self.postman.request('member_list', page = attempt)
+    def member_info(self, attempt=1):
+        response = self.postman.request('member_list', page=attempt)
 
         if (response.status_code == requests.codes.ok):
             if (len(response.json()) != 0):
                 self.members += len(response.json())
 
-                self.member_info(attempt = attempt + 1)
+                self.member_info(attempt=attempt + 1)

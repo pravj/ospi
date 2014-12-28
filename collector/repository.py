@@ -20,20 +20,22 @@ class Repository:
         self.forks = 0
         self.language = None
         self.description = None
+        self.created = None
 
         self.data_file = '../data/repositories.csv'
 
     def write_data(self):
-        data_string = "%s, %s, %d, %s, %d, %d\n" % (
-            self.org.name, self.name, self.is_fork, self.language, self.stars, self.forks)
+        data_string = "%s, %s, %d, %s, %d, %d, %s, %s\n" % (
+            self.org.name, self.name, self.is_fork, self.language, self.stars,
+            self.forks, self.created, self.description)
 
         file_path = os.path.join(os.path.dirname(__file__), self.data_file)
 
-        with open(os.path.abspath(file_path), 'w') as f:
+        with open(os.path.abspath(file_path), 'a') as f:
             f.write(data_string)
 
     def repo_info(self):
-        response = self.org.postman.request('repo', self.name)
+        response = self.org.postman.request('repo', name=self.name)
 
         if (response.status_code == requests.codes.ok):
             data = response.json()
@@ -43,3 +45,4 @@ class Repository:
             self.forks = data['forks_count']
             self.language = data['language']
             self.description = data['description']
+            self.created = data['created_at']

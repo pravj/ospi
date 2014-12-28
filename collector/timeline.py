@@ -5,8 +5,20 @@ ospi/collector/timeline.py
 This module handles obtaining and managing organization's timeline stats.
 """
 
+import datetime
+import os
 import requests
-from utils import creation_date, week_index
+
+
+def creation_date(timestamp):
+    fmt = "%Y-%m-%dT%H:%M:%SZ"
+    date = datetime.datetime.strptime(timestamp, fmt)
+
+    return date
+
+
+def week_index(date):
+    return date.isocalendar()[1]
 
 
 class Timeline:
@@ -24,11 +36,12 @@ class Timeline:
 
     def write_data(self):
         data_string = "%s, %s, %s\n" % (
-            self.org.name, self.name, ", ".join([str(wc) for wc in self.week_count]))
+            self.org.name, self.name,
+            ", ".join([str(wc) for wc in self.week_count]))
 
         t_file_path = os.path.join(os.path.dirname(__file__), self.data_file_t)
 
-        with open(os.path.abspath(t_file_path), 'w') as f:
+        with open(os.path.abspath(t_file_path), 'a') as f:
             f.write(data_string)
 
         if (self.is_fork):
@@ -38,7 +51,7 @@ class Timeline:
             f_file_path = os.path.join(
                 os.path.dirname(__file__), self.data_file_f)
 
-            with open(os.path.abspath(f_file_path), 'w') as f:
+            with open(os.path.abspath(f_file_path), 'a') as f:
                 f.write(data_string)
 
     def filter_activity(self):
@@ -46,22 +59,22 @@ class Timeline:
         date = creation_date(self.created)
 
         if (date.year == 2014):
-            week_index = week_index(date)
-            index = week_index
+            wi = week_index(date)
+            index = wi
         else:
             pass
 
         return index
 
     def timeline_info(self):
-        response = self.org.postman.request('repo_stats')
+        response = self.org.postman.request('repo_stats', name=self.name)
 
         if (response.status_code == requests.codes.ok):
             data = response.json()
             commits = data['all']
 
             if (self.is_fork):
-                index = self.filter_activity(commits)
+                index = self.filter_activity()
 
                 for i in range(index, 52):
                     self.week_count[i] = commits[i]

@@ -7,8 +7,9 @@ ospi/collector/postman.py
 This module helps the data collection process by interacting with GitHub API.
 """
 
-import requests
 from organization import Organization
+import requests
+import time
 
 
 class Linker:
@@ -37,7 +38,8 @@ class Linker:
         return url
 
     def repo_stats(self, name):
-        url = "https://api.github.com/repos/%s/%s/stats/participation" % (self.org, name)
+        url = "https://api.github.com/repos/%s/%s/stats/participation" % (
+            self.org, name)
         return url
 
 
@@ -49,7 +51,7 @@ class Postman:
     def update(self, org):
         self.linker.org = org
 
-    def address(self, section, **kwargs):
+    def address(self, *section, **kwargs):
         default_name = ''
         default_url = ''
 
@@ -67,24 +69,27 @@ class Postman:
             'repo_languages': self.linker.repo_languages(default_name),
             'repo_stats': self.linker.repo_stats(default_name),
             'url': default_url
-        }.get(section)
+        }.get(section[0])
 
         if 'page' in kwargs.keys():
             url += "?page=%d" % (kwargs['page'])
 
         return url
 
-    def request(self, section, **kwargs):
-        url = self.address(section, **kwargs)
-        response = requests.get(url)
+    def request(self, *section, **kwargs):
+        url = self.address(section[0], **kwargs)
+        headers = {
+            'Authorization': 'token 84e87ee5d747b9f1de549c165df2d3ab9c4c339c'}
+        response = requests.get(url, headers=headers)
 
         # return 'requests.models.Response' object
         if (response.status_code == requests.codes.ok):
             return response
         # the response data hasn't been cached, waiting a little
         elif (response.status_code == requests.codes.accepted):
-            time.sleep(3)
-            return self.request(url)
+            print "Retrying for %s" % (url)
+            time.sleep(5)
+            return self.request(*section, **kwargs)
         # none of the favorable case
         else:
             print "Missed URL : %s" % (url)
