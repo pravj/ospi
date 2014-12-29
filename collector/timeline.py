@@ -11,6 +11,9 @@ import requests
 
 
 def creation_date(timestamp):
+    """ Return date object from a timestamp string.
+    """
+
     fmt = "%Y-%m-%dT%H:%M:%SZ"
     date = datetime.datetime.strptime(timestamp, fmt)
 
@@ -18,6 +21,9 @@ def creation_date(timestamp):
 
 
 def week_index(date):
+    """ Return week of the year for a date.
+    """
+
     return date.isocalendar()[1]
 
 
@@ -35,6 +41,9 @@ class Timeline:
         self.data_file_f = '../data/forked_repo_stats.csv'
 
     def write_data(self):
+        """ Write the processed data in respective file.
+        """
+
         data_string = "%s, %s, %s\n" % (
             self.org.name, self.name,
             ", ".join([str(wc) for wc in self.week_count]))
@@ -44,6 +53,7 @@ class Timeline:
         with open(os.path.abspath(t_file_path), 'a') as f:
             f.write(data_string)
 
+        # Write forked repo status, if the repository is a fork
         if (self.is_fork):
             data_string = "%s, %s, %d\n" % (
                 self.org.name, self.name, self.fork_info())
@@ -55,6 +65,9 @@ class Timeline:
                 f.write(data_string)
 
     def filter_activity(self):
+        """ Return week index for the date when the repo was forked.
+        """
+
         index = 0
         date = creation_date(self.created)
 
@@ -67,6 +80,9 @@ class Timeline:
         return index
 
     def timeline_info(self):
+        """ Collect last year commit activity for a repository.
+        """
+
         response = self.org.postman.request('repo_stats', name=self.name)
 
         if (response.status_code == requests.codes.ok):
@@ -82,4 +98,7 @@ class Timeline:
                 self.week_count = [commit for commit in commits]
 
     def fork_info(self):
+        """ Total commits for a forked repository in the last year.
+        """
+
         return sum(self.week_count)

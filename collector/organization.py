@@ -27,6 +27,9 @@ class Organization:
         self.postman.update(self.name)
 
     def write_data(self):
+        """ Write the processed data in respective data file.
+        """
+
         data_string = "%s, %d, %d, %s\n" % (
             self.name, self.repos, self.members, self.created)
 
@@ -36,6 +39,9 @@ class Organization:
             f.write(data_string)
 
     def org_info(self):
+        """ Collect the general information related to the organization.
+        """
+
         response = self.postman.request('info')
 
         if (response.status_code == requests.codes.ok):
@@ -49,6 +55,9 @@ class Organization:
             self.member_info()
 
     def repo_info(self, attempt=1):
+        """ Collect the repositories for an organization.
+        """
+
         response = self.postman.request('repo_list', page=attempt)
 
         if (response.status_code == requests.codes.ok):
@@ -59,6 +68,9 @@ class Organization:
                 self.repo_info(attempt=attempt + 1)
 
     def member_info(self, attempt=1):
+        """ Collect the information about public members of organization.
+        """
+
         response = self.postman.request('member_list', page=attempt)
 
         if (response.status_code == requests.codes.ok):

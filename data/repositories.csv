@@ -52,7 +52,7 @@ flipkart, alertz, 0, Java, 6, 5, 2014-02-07T08:37:01Z, Alerting Platform for rea
 flipkart, automobile, 0, Java, 0, 2, 2014-02-24T06:45:28Z, an automation test framework for mobile apps
 flipkart, phantom-mysql-proxy, 0, Java, 6, 3, 2014-02-27T09:33:27Z, The Mysql proxy leverages the Phantom extensibility support.
 flipkart, open-replicator, 1, Java, 1, 1, 2014-04-10T13:37:16Z, Open Replicator is a high performance MySQL binlog parser written in Java. It unfolds the possibilities that you can parse filter and broadcast the binlog events in a real time manner.
-flipkart, flipcast, 0, Scala, 18, 6, 2014-04-12T06:32:00Z, A scalable push notification platform for mobile, devices and web.
+flipkart, flipcast, 0, Scala, 18, 6, 2014-04-12T06:32:00Z, A scalable push notification platform for mobile devices and web.
 flipkart, betamax, 1, CSS, 1, 0, 2014-04-12T06:37:17Z, Betamax is a tool for mocking external HTTP resources such as web services and REST APIs in your tests. The project was inspired by the VCR library for Ruby.
 flipkart, hive-udf, 1, Java, 0, 1, 2014-06-09T14:00:35Z, NexR Hive UDFs
 flipkart, sun-jdk-7-debian-x64, 0, None, 0, 1, 2014-06-10T12:20:42Z, Sun JDK 1.7 package for debian squeeze

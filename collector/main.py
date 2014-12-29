@@ -14,12 +14,17 @@ from repository import Repository
 from timeline import Timeline
 
 
+# data store files
 data_files = ['../data/organizations.csv', '../data/repositories.csv',
               '../data/timeline.csv', '../data/forked_repo_stats.csv']
+# headers for each data store file
 headers = []
 
 
 def add_headers():
+    """ Add header row in all the data files. It has column names.
+    """
+
     for i in range(len(headers)):
         file_path = os.path.join(os.path.dirname(__file__), data_files[i])
 
@@ -28,6 +33,9 @@ def add_headers():
 
 
 def generate_headers():
+    """ Generate the header row for each data file.
+    """
+
     # organizations.csv
     headers.append("organization, public_repos, public_members, created_at\n")
 
@@ -43,13 +51,18 @@ def generate_headers():
 
 
 def collect():
+    """ Collect the data for each organization and process it.
+    """
+
     orgs_file = os.path.join(
         os.path.dirname(__file__), '../config/organizations.json')
     with open(os.path.abspath(orgs_file), 'r') as f:
         orgs = json.loads(f.read())
 
+    # postman.Postman instance for interacting with GitHub API
     postman = Postman()
 
+    # iterating over all the organizations
     for org in orgs:
         print "collecting data for %s" % (org['handle'])
         organization = Organization(org['handle'], postman)
@@ -68,6 +81,8 @@ def collect():
             timeline.timeline_info()
             timeline.write_data()
 
+        # wait for a minute after completing an organization
+        # step to mitigate API rate-limiting issue, if any
         time.sleep(60)
 
 

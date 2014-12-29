@@ -25,6 +25,9 @@ class Repository:
         self.data_file = '../data/repositories.csv'
 
     def write_data(self):
+        """ Write the processed data in respective file.
+        """
+
         data_string = "%s, %s, %d, %s, %d, %d, %s, %s\n" % (
             self.org.name, self.name, self.is_fork, self.language, self.stars,
             self.forks, self.created, self.description)
@@ -35,6 +38,9 @@ class Repository:
             f.write(data_string)
 
     def repo_info(self):
+        """ Collect and process data about a specific repository.
+        """
+
         response = self.org.postman.request('repo', name=self.name)
 
         if (response.status_code == requests.codes.ok):
