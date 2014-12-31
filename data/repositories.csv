@@ -156,7 +156,7 @@ hasgeek, hasdev, 0, Python, 2, 1, 2013-10-21T07:32:01Z, HasGeek development envi
 hasgeek, hasmail, 0, Python, 0, 0, 2013-12-12T10:38:35Z, HasGeek Mailer
 hasgeek, clonedoattend, 0, Python, 1, 0, 2013-12-18T11:37:19Z, Clone events on DoAttend and update event name and dates
 hasgeek, limeframe, 1, JavaScript, 0, 0, 2014-03-02T12:36:21Z, A responsive LimeSurvey template based on Bootstrap and HasGeek Baseframe
-hasgeek, cookiefree, 0, Python, 0, 0, 2014-03-31T13:43:21Z, Static, cacheable data for Baseframe sites
+hasgeek, cookiefree, 0, Python, 0, 0, 2014-03-31T13:43:21Z, Static cacheable data for Baseframe sites
 hasgeek, oddc, 1, JavaScript, 0, 0, 2014-07-05T13:37:00Z, Opening Government Data in India
 hasgeek, packman, 0, Python, 0, 1, 2014-10-01T22:03:35Z, HasGeek asset packing management
 hasgeek, inspiring-sites, 0, None, 0, 0, 2014-11-12T03:22:20Z, Template for event websites
@@ -379,9 +379,9 @@ wingify, lua-resty-rabbitmqstomp, 0, Lua, 45, 13, 2013-05-30T13:00:59Z, Opiniona
 wingify, rabbitmq-munin, 1, Shell, 4, 0, 2013-05-30T13:15:23Z, Munin-plugins for RabbitMQ
 wingify, please.js, 0, JavaScript, 211, 15, 2013-06-17T08:30:30Z, A simple PostMessage communication library.
 wingify, agentredrabbit, 0, Python, 49, 4, 2013-07-12T12:00:11Z, Transport agent that moves data from Redis to RabbitMQ
-wingify, angular-translate, 1, JavaScript, 0, 0, 2013-11-14T13:10:17Z, i18n in your Angular apps, made easy.
+wingify, angular-translate, 1, JavaScript, 0, 0, 2013-11-14T13:10:17Z, i18n in your Angular apps made easy.
 wingify, ui-router, 1, JavaScript, 0, 1, 2013-11-26T11:32:41Z, UI-Router for Nested Routing by the AngularUI Team
-wingify, bootstrap, 1, JavaScript, 0, 1, 2014-02-08T10:45:59Z, Native AngularJS Angular directives for Twitter's Bootstrap. Small footprint 5kB gzipped no 3rd party JS dependencies jQuery, bootstrap JS required
+wingify, bootstrap, 1, JavaScript, 0, 1, 2014-02-08T10:45:59Z, Native AngularJS Angular directives for Twitter's Bootstrap. Small footprint 5kB gzipped no 3rd party JS dependencies jQuery bootstrap JS required
 wingify, ngQuickDate, 1, CoffeeScript, 0, 0, 2014-02-12T14:17:34Z, An Angular.js Date/Time picker directive that stresses speed of data entry and configuration
 wingify, heatmap.js, 1, JavaScript, 0, 1, 2014-02-19T16:46:04Z, JavaScript Library for HTML5 canvas based heatmaps
 wingify, angular-date-range-picker, 1, CoffeeScript, 0, 0, 2014-03-29T14:28:28Z, Pure Angular date range picker no jQuery
