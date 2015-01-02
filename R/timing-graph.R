@@ -7,7 +7,7 @@ library('scales')
 github.created.at = "2008-04-10"
 
 # source data date.frame
-df <- read.csv("../data/organizations.csv")
+df <- read.csv("~/projects/ospi/data/organizations.csv")
 
 # change the both date related columns
 # from 'Factor' objects of date timestamps to native 'Date' objects
@@ -28,3 +28,9 @@ gplot <- gplot + scale_y_date(lim = c(as.Date("2007-01-01"), as.Date("2013-12-31
 
 # add a dashed line that shows GitHub's appearance in the timeline
 gplot <- gplot + geom_hline(aes(yintercept = as.numeric(as.Date(github.created.at))), linetype = "dotdash")
+
+# mark points for the foundation time of organizations
+gplot <- gplot + geom_point(aes(x = organization, y = founded_at), colour = "#188F57", size = 2.5)
+
+# mark points for the creation time of organization account on GitHub
+gplot <- gplot + geom_point(aes(x = organization, y = created_at), colour = "#273e9c", size = 2.5)
