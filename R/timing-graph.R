@@ -1,6 +1,6 @@
 # load required libraries
-library('ggplot2')
-library('scales')
+library("ggplot2")
+library("scales")
 
 # some global variables used in the process
 # GitHub's public launch date
