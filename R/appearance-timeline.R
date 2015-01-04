@@ -16,6 +16,8 @@ df$founded_at <- as.Date(df$founded_at)
 
 # initial ggplot instance with data source as 'sd'
 gplot <- ggplot(df, aes(x = organization))
+gplot <- gplot + labs(x = "Organization", title = "Appearance Timeline of Organizations")
+
 # use linerange geom for vertical bars
 gplot <- gplot + geom_linerange(aes(ymin = created_at, ymax = founded_at))
 

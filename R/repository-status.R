@@ -8,10 +8,12 @@ org.df <- read.csv("./data/organizations.csv")
 gplot <- ggplot(org.df, aes(x = organization, y = public_repos))
 gplot <- gplot + geom_bar(stat = "identity")
 
+# Add respective labels
+gplot <- gplot + geom_text(aes(y=avg.repos, x=0.67, label="Avg. Repos", angle=90))
+gplot <- gplot + labs(x = "Organization", y = "No. of Repository", title = "Public Repository Status")
+
 # mean of the group, Avg. public repos
 avg.repos <- mean(org.df$public_repos)
 
 # Add the mean of this group as a horizontal line
 gplot <- gplot + geom_hline(aes(yintercept = as.numeric(avg.repos)), linetype = "dotdash")
-# Add the label for Y-intercept point
-gplot + geom_text(aes(y=avg.repos, x=0.67, label="Avg. Repos", angle=90))
