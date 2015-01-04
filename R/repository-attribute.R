@@ -1,6 +1,7 @@
 # load required libraries
 library("ggplot2")
 library("plyr")
+library("reshape2")
 
 # data.frame for repository information
 repos.df <- read.csv("./data/repositories.csv")
@@ -32,3 +33,12 @@ result.df <- data.frame(
   unactive_forks = unactive.forks,
   sources = sources
 )
+
+# re-arrange the data.frame to be used in a stack bar
+result.df <- melt(result.df)
+
+# renders stacked bar chart for each repo attribute
+gplot <- ggplot(result.df, aes(x = organization, y = value, fill = variable))
+gplot <- gplot + labs(x = "Organizations", y = "No. of Repository", title = "Relative Repository Attributes", fill = "Attributes")
+gplot <- gplot + geom_bar(stat = "identity")
+gplot <- gplot + scale_fill_manual(values=c("#199C3A", "#A84248", "#3C81C9"))
