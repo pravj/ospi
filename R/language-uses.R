@@ -45,3 +45,11 @@ language.df <- melt(new.language.df)
 # renders a stacked bar chart for organizations-repository-languages
 gplot <- ggplot(language.df, aes(x = organization, y = value, fill = language))
 gplot <- gplot + geom_bar(stat = "identity")
+
+# label the chart
+gplot <- gplot + labs(x = "Organizations", y = "No. of Repository", title = "Use of Programming Languages at Organizations", fill = "Language")
+
+# vector representing colours of different language
+colours <- c("#e3491a", "#6a40fd", "#555555", "#178600", "#f34b7d", "#244776", "#563d7c", "#0faf8d", "#375eab", "#e69f56", "#b07219", "#f1e05a", "#fa1fa1", "#000000", "#438eff", "#0298c3", "#4F5D95", "#3581ba", "#701516", "#7dd3b0", "#89e051", "#199c4b")
+# add colours for different language, uses GitHub's linguist; The Language Savant.
+gplot <- gplot + scale_fill_manual(values = colours)
