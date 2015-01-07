@@ -11,6 +11,7 @@ import os
 import csv
 import json
 from colander import Colander
+from writer import Writer
 
 # relative path of source csv data file
 SOURCE_FILE_PATH = '../data/repositories.csv'
@@ -18,9 +19,6 @@ SOURCE_FILE_PATH = '../data/repositories.csv'
 # relative path of source json data file for groups/organizations
 GROUP_FILE_PATH = '../config/organizations.json'
 
-# relative path of target data files about topic distribution
-FBT_PATH = './frequency-based-topics.txt'
-PBT_PATH = './probability-based-topics.txt'
 
 
 class Loader:
@@ -107,38 +105,6 @@ class Calculator:
                 den += corpus[group][word]
 
         return num / den
-
-
-class Writer:
-
-    def __init__(self):
-        self.fbt_file = os.path.join(os.path.dirname(__file__), FBT_PATH)
-        self.pbt_file = os.path.join(os.path.dirname(__file__), PBT_PATH)
-
-    def process(self, dictionary, section, group):
-        if (section == 'freq'):
-            self.write(section, "\n%s\n\n" % (group))
-
-            for word_freq in dictionary:
-                self.write(section, "%s : %s\n" % (word_freq[0], word_freq[1]))
-
-        elif (section == 'prob'):
-            self.write(section, "\n%s\n\n" % (group))
-
-            sorted_dictionary = sorted(dictionary, key=dictionary.get)
-            sorted_dictionary.reverse()
-
-            for word in sorted_dictionary:
-                self.write(section, "%s : %s\n" % (word, dictionary[word]))
-            
-
-    def write(self, section, string):
-        filepath = self.fbt_file
-        if (section == 'prob'):
-            filepath = self.pbt_file
-
-        with open(os.path.abspath(filepath), 'a') as writefile:
-            writefile.write("%s" % (string))
 
 
 corpus = Corpus(GROUP_FILE_PATH)
