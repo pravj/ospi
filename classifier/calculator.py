@@ -16,6 +16,9 @@ class Calculator:
         self.writer = writer
 
     def iteration(self):
+        """ iterate over all the groups/organizations and process
+        """
+
         groups = self.loader.corpus.groups
 
         for group in groups:
@@ -34,6 +37,9 @@ class Calculator:
             self.writer.process(freq_dist, 'freq', group)
 
     def probability(self, word, group):
+        """ return the conditional probability P(group | word) using Bayes' Theorm
+        """
+
         corpus = self.loader.corpus.words
         groups = self.loader.corpus.groups
 

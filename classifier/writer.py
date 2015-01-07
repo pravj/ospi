@@ -20,26 +20,28 @@ class Writer:
         self.pbt_file = os.path.join(os.path.dirname(__file__), PBT_PATH)
 
     def process(self, dictionary, section, group):
-        if (section == 'freq'):
-            self.write(section, "\n%s\n\n" % (group))
+        """ process the provided data and write it to respective storage file
+        """
 
+        self.write(section, "\n%s\n\n" % (group))
+
+        if (section == 'freq'):
             for word_freq in dictionary:
-                self.write(section, "%s : %s\n" % (word_freq[0], word_freq[1]))
+                self.write(section, "{0} : {1}\n".format(word_freq[0], word_freq[1]))
 
         elif (section == 'prob'):
-            self.write(section, "\n%s\n\n" % (group))
-
             sorted_dictionary = sorted(dictionary, key=dictionary.get)
             sorted_dictionary.reverse()
 
             for word in sorted_dictionary:
-                self.write(section, "%s : %s\n" % (word, dictionary[word]))
+                self.write(section, "{0} : {1}\n".format(word, dictionary[word]))
             
 
     def write(self, section, string):
-        filepath = self.fbt_file
-        if (section == 'prob'):
-            filepath = self.pbt_file
+        """ write a string to a particular storage file accordingly
+        """
+
+        filepath = self.pbt_file if section == 'prob' else self.fbt_file
 
         with open(os.path.abspath(filepath), 'a') as writefile:
             writefile.write("%s" % (string))

@@ -20,6 +20,9 @@ class Colander:
         self.lemmatizer = WordNetLemmatizer()
 
     def process(self, sentence):
+        """ filter the sentence and return meaningful words.
+        """
+
         # selects onlt alphanumeric words
         words = self.tokenizer.tokenize(sentence)
 

@@ -8,18 +8,11 @@ This module implements a basic naive classifier model for repository description
 import os
 import csv
 import json
-from calculator import Calculator
-from colander import Colander
-from writer import Writer
-
-# relative path of source csv data file
-SOURCE_FILE_PATH = '../data/repositories.csv'
-
-# relative path of source json data file for groups/organizations
-GROUP_FILE_PATH = '../config/organizations.json'
 
 
 class Loader:
+    """ Loader class reads the source data files and format the data for further use.
+    """
 
     def __init__(self, source_file, corpus, colander):
         self.corpus = corpus
@@ -27,6 +20,9 @@ class Loader:
         self.source_file = os.path.join(os.path.dirname(__file__), source_file)
 
     def read_data(self):
+        """ read the csv data files accordingly
+        """
+
         with open(os.path.abspath(self.source_file), 'rb') as csvfile:
             # read the row content accordint to particular columns
             reader = csv.DictReader(csvfile)
@@ -34,20 +30,28 @@ class Loader:
             for row in reader:
                 wordlist = self.colander.process("".join([row[' description'], row[' repository']]))
 
-                self.corpus.read_words(wordlist, row['organization'])
+                self.corpus.learn_words(wordlist, row['organization'])
 
 
 class Corpus:
+    """ Corpus class implements corpus object that contains words
+    and facilities function to operate on the content.
+    """
 
     def __init__(self, group_file):
         self.group_file = os.path.join(os.path.dirname(__file__), group_file)
 
+        # contains information about each groups and its word counts
         self.groups = {}
+        # contains information about each groups and its words
         self.words = {}
 
-        self.read_groups()
+        self.learn_groups()
 
-    def read_groups(self):
+    def learn_groups(self):
+        """ learn the total groups available
+        """
+
         with open(os.path.abspath(self.group_file), 'r') as jsonfile:
             groups = json.loads(jsonfile.read())
 
@@ -57,19 +61,12 @@ class Corpus:
 
             self.words.setdefault(group['handle'].lower(), {})
 
-    def read_words(self, wordlist, group):
+    def learn_words(self, wordlist, group):
+        """ learn the words for a particular group/organization
+        """
+
         for word in wordlist:
             self.words[group].setdefault(word, 0)
             self.words[group][word] += 1
 
             self.groups[group]['count'] += 1
-
-
-corpus = Corpus(GROUP_FILE_PATH)
-
-loader = Loader(SOURCE_FILE_PATH, corpus, Colander())
-loader.read_data()
-
-writer = Writer()
-calc = Calculator(loader, writer)
-calc.iteration()
