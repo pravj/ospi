@@ -9,8 +9,8 @@ Which helps storing the distribution result in respective files.
 import os
 
 # relative path of target data files about topic distribution
-FBT_PATH = './frequency-based-topics.txt'
-PBT_PATH = './probability-based-topics.txt'
+FBT_PATH = '../results/frequency-based-topics.txt'
+PBT_PATH = '../results/probability-based-topics.txt'
 
 
 class Writer:
