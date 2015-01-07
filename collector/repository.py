@@ -1,6 +1,6 @@
 """
 ospi/collector/repository.py
-=============
+============================
 
 This module handels obtaining and managing repository information.
 """
