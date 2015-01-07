@@ -7,41 +7,20 @@ This module implements a basic naive classifier model for repository description
 
 import os
 import csv
-from nltk.corpus import stopwords
-from nltk.stem import WordNetLemmatizer
-from nltk.tokenize import RegexpTokenizer
+import json
+from colander import Colander
 
 # relative path of source csv data file
 SOURCE_FILE_PATH = '../data/repositories.csv'
 
-
-class Colander:
-
-    def __init__(self):
-        # takes care of necessary '.' character; like the word 'angular.js'
-        self.tokenizer = RegexpTokenizer(r'\w+(\.\w+)?')
-
-        self.lemmatizer = WordNetLemmatizer()
-
-    def process(self, sentence):
-        # selects onlt alphanumeric words
-        words = self.tokenizer.tokenize(sentence)
-
-        # lemmatize the words
-        words = [self.lemmatizer.lemmatize(word) for word in words]
-
-        # lowercase all the words and remove single characters
-        words = [word.lower() for word in words if len(word) > 1]
-
-        # remove the stopwords using NLTK
-        words = [word for word in words if word not in stopwords.words('english')]
-
-        return words
+# relative path of source json data file for groups/organizations
+GROUP_FILE_PATH = '../config/organizations.json'
 
 
-class LoadCorpus:
+class Loader:
 
-    def __init__(self, source_file, colander):
+    def __init__(self, source_file, corpus, colander):
+        self.corpus = corpus
         self.colander = colander
         self.source_file = os.path.join(os.path.dirname(__file__), source_file)
 
@@ -51,8 +30,43 @@ class LoadCorpus:
             reader = csv.DictReader(csvfile)
 
             for row in reader:
-                words = colander.process("".join(row[' description'], row[' repository']))
+                wordlist = self.colander.process("".join([row[' description'], row[' repository']]))
+
+                self.corpus.read_words(wordlist, row['organization'])
 
 
-lc = LoadCorpus(SOURCE_FILE_PATH)
-lc.read_data()
+class Corpus:
+
+    def __init__(self, group_file):
+        self.group_file = os.path.join(os.path.dirname(__file__), group_file)
+
+        self.groups = {}
+        self.words = {}
+
+        self.read_groups()
+
+    def read_groups(self):
+        with open(os.path.abspath(self.group_file), 'r') as jsonfile:
+            groups = json.loads(jsonfile.read())
+
+        for group in groups:
+            self.groups.setdefault(group['handle'].lower(), {})
+            self.groups[group['handle'].lower()].setdefault('count', 0)
+
+            self.words.setdefault(group['handle'].lower(), {})
+
+    def read_words(self, wordlist, group):
+        for word in wordlist:
+            self.words[group].setdefault(word, 0)
+            self.words[group][word] += 1
+
+            self.groups[group]['count'] += 1
+
+        print self.words
+
+
+corpus = Corpus(GROUP_FILE_PATH)
+
+loader = Loader(SOURCE_FILE_PATH, corpus, Colander())
+loader.read_data()
+print loader.corpus.words
