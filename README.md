@@ -18,11 +18,11 @@ This report tries to plot all the involved organizations on the Open-Source port
 
 It's pretty biased though, because this report uses only one platform of the Open-Source community, GitHub.
 
-*This report doesn't measure the success of involved organizations; it simply can't. They all are doing good in their fields, that's why they are here.* :tophat:
+*This report doesn't measure the success of involved organizations; it simply can't. They all are doing good in their fields, that's why they are here.* `:tophat:`
 
 ##Motive
 
-I think it was almost mid of the December last year when I saw the [interview](http://yourstory.com/2014/12/techie-tuesdays-amod-malviya-cto-flipkart/) of Flipkart's CTO *Amod Malviya* in a YourStory article. I started reading that and I kept reading till the end. At the end my reaction was, *wow! this man is awesome* and he is indeed. I have seen many of his talks after reading that interview.
+I think it was almost mid of the December last year when I saw the [interview](http://yourstory.com/2014/12/techie-tuesdays-amod-malviya-cto-flipkart/) of Flipkart's CTO *Amod Malviya* in a YourStory article. I started reading that and kept reading till the end. At the end my reaction was, *wow! this man is awesome* and he is indeed. I have seen many of his talks after reading that interview.
 
 That interview made a different impression on me. I liked his words where he was talking about building a top class internet infrastructure in India. I don't know what you people think of Flipkart, Myntra etc. but what I think is that they are evolving continuously, at least in the technical aspect. That's why they are in the marathon and Amazon itself is in the race with them. 
 
@@ -33,7 +33,7 @@ The earth will keep rotating without this report but it's kinda necessary for te
 
 Do you remember something named Facebook? Lets take an example from them.
 
-Maybe that you take PHP as *a language for the kids* but keep in mind that *The Social Network* was initially developed in that same PHP. But as they started growing and feeling glitch using it; seeing that the :santa: was not coming to help them, they attempted building something on their own. Finally today, we know the inventions as [HHVM](http://hhvm.com/) and [Hack language](http://hacklang.org/).
+Maybe that you take PHP as *a language for the kids* but keep in mind that *The Social Network* was initially developed in that same PHP. But as they started growing and feeling glitch using it; seeing that the `:santa:` was not coming to help them, they attempted building something on their own. Finally today, we know the inventions as [HHVM](http://hhvm.com/) and [Hack language](http://hacklang.org/).
 
 So, the thing is *don't wait for santa and build cool things that matters*. Big organizations are already doing it, be it [hhvm](https://github.com/facebook/hhvm), [react](https://github.com/facebook/react) by Facebook or [typeahead.js](https://github.com/twitter/typeahead.js) by Twitter or [web-starter-kit](https://github.com/google/web-starter-kit) by Google and many more by others.
 
@@ -81,10 +81,10 @@ This plot shows *relative appearance* of selected organizations both in the publ
 
 > Add legend text in the image.
 
-* I didn't knew that Myntra was founded a bit earlier than Flipkart, who [aquired](http://timesofindia.indiatimes.com/tech/tech-news/Flipkart-acquires-Myntra/articleshow/35472797.cms) the older player recently.
+* I didn't know that Myntra was founded a bit earlier than Flipkart, who [aquired](http://timesofindia.indiatimes.com/tech/tech-news/Flipkart-acquires-Myntra/articleshow/35472797.cms) the older player recently.
 * Myntra and Flipkart came in existance before the GitHub itself.
 * We can see a large gap between apperance on these two portals for Flipkart, Myntra and Zomato, Myntra being the slowest one to join.
-* Some organizations like Instamojo, HackerEarth and HasGeek felt the time and took no significant time in this.
+* Some organizations like Instamojo, HackerEarth and HasGeek felt the need of time and took no significant time in this.
 
 Well! in case if you're thinking that this information is all chatter, let me present something interesting.
 
@@ -94,7 +94,7 @@ Yes! the GitHub organizations for these two were created before their public lau
 
 I can't say for Cucumbertown now but I can present a supporting theory to prove this for the HasGeek.
 
-Do you guys remeber what was the first event that HasGeek organised? It was [DocType HTML5](http://wiki.hasgeek.in/DocType_HTML5), you silly. The event was held on October, 2010 and HasGeek was pubilcally launched in December, 2010. You can fly to their GitHub account and check that they were developing [hasgeek/doctypehtml5](https://github.com/hasgeek/doctypehtml5) since then.
+Do you guys remeber what was the first event that HasGeek organised? It was [DocType HTML5](http://wiki.hasgeek.in/DocType_HTML5), you silly. The event was held on October, 2010 and HasGeek was pubilcally launched in December, 2010. You can fly to their GitHub account and check that they are developing [hasgeek/doctypehtml5](https://github.com/hasgeek/doctypehtml5) since then.
 
 Maybe organising this event was the inspiration behind launching the HasGeek, I need to hear HasGeek founder [Kiran](https://twitter.com/jackerhack)'s words on it, though.
 
@@ -180,7 +180,7 @@ This plot shows weekly commit activity of all the organizations. This is pretty 
 
 You can see a relatively more development activity in the start of the year.
 
-Flipkart development team [keeps](https://github.com/Flipkart/linux) a *fork* of the *linux*, it's not a *forked repo* though. I removed its activities because this was maing the plot even more cluttered. You can check [that plot](https://raw.githubusercontent.com/pravj/ospi/master/images/commit-activity.png?token=ADRywlIX6usOu11z34wv-NZrVt_lmL00ks5Uw7GBwA%3D%3D) also, though.
+Flipkart development team [keeps](https://github.com/Flipkart/linux) a *fork* of the *linux*, it's not a *forked repo* though. I removed its activities because this was making the plot even more cluttered. You can check [that plot](https://raw.githubusercontent.com/pravj/ospi/master/images/commit-activity.png?token=ADRywlIX6usOu11z34wv-NZrVt_lmL00ks5Uw7GBwA%3D%3D) also, though.
 
 ##4. Technology Stack
 
@@ -191,13 +191,13 @@ Different organization are working in different fields of the technology; be it 
 This section deals with use of different programming languages in the involved organizations's infrastructure.
 ![Language-Use](https://raw.githubusercontent.com/pravj/ospi/master/images/language-uses.png?token=ADRywp4Fkhgv0CSCIBoMOPiC0yBfWc-qks5Uw7GWwA%3D%3D)
 
-This plot uses colours from GitHub's [linguist](https://github.com/linguist) for different programming languages.
+This plot uses colors from GitHub's [linguist](https://github.com/linguist) for different programming languages.
 
 This helps us understanding tech-stack of all the organizations.
 
 * Flipkart uses Java, HasGeek uses Python, Practo uses PHP and Freshdesk uses Ruby as their major programming language.
 * Organizations have started using *non-traditional* languages like Lua, Erlang and Scala etc.
-* ShepHertz uses maximum no. of programming languages(14), in their quest to all *in-demand* programming language in their service.
+* ShepHertz uses maximum no. of programming languages(14), in their quest to serve all *in-demand* programming language in their service.
 
 ###4.2. Field of work
 
@@ -208,7 +208,7 @@ Actually I wanted to have relative sharing in fields of working of all the organ
 
 So, initially, my plan was to use [Latent Dirichlet Allocation](http://en.wikipedia.org/wiki/Latent_Dirichlet_allocation) on the *repository-description-text* corpus for *Topic Modeling*.
 
-Where I had use *concatenated repository descriptions* of organizations as a document but then I droped this idea because of asymmetrical repository distribution. It was resulting in a corpus of 14 documents only (Zomato excluded).
+Where I had use *concatenated repository descriptions* of organizations as a *document* but then I droped this idea because of asymmetrical repository distribution. It was resulting in a corpus of 14 documents only (Zomato excluded).
 
 You can have a brief knowledge about LDA, [here](http://blog.echen.me/2011/08/22/introduction-to-latent-dirichlet-allocation/).
 
@@ -236,7 +236,7 @@ Here we can see that Flipkart's stack includes things related to distributed com
 
 ---
 
-So, this is it. Open Source Presence Infographic of Indian Startups. :octocat:.
+So, this is it. Open Source Presence Infographic of Indian Startups. `:octocat:`.
 
 If you're thinking that *santa* helped me in all this; then you are wrong, my friend.
 I was all alone everytime, thinking about it, collecting the data, managing R source files in Rstudio, writing Python for it and all that.
