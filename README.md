@@ -3,10 +3,14 @@ ospi
 
 > Open Source Presence Infographic of Indian Startups
 
+* Source Code supplement for my post : [Open Source Presence Infographic of Indian Startups](http://pravj.github.io/blog/open-source-presence-infographic)
 * [How to use it](https://github.com/pravj/ospi/blob/master/Manual.md)
 * [Terms and Conditions](https://github.com/pravj/ospi/blob/master/Terms-and-conditions.md)
 
 ---
+
+Report
+======
 
 Technically speaking, organizations used in this report are no more only a *startup* now, but I hope you people won't mind this and aren't gonna launch a drone on me.
 
@@ -18,7 +22,7 @@ This report tries to plot all the involved organizations on the Open-Source port
 
 It's pretty biased though, because this report uses only one platform of the Open-Source community, GitHub.
 
-*This report doesn't measure the success of involved organizations; it simply can't. They all are doing good in their fields, that's why they are here.* `:tophat:`
+*This report doesn't measure the success of involved organizations; it simply can't. They all are doing good in their fields, that's why they are here.* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f3a9.png" width="20" height="20" alt="tophat" />
 
 ##Motive
 
@@ -33,7 +37,7 @@ The earth will keep rotating without this report but it's kinda necessary for te
 
 Do you remember something named Facebook? Lets take an example from them.
 
-Maybe that you take PHP as *a language for the kids* but keep in mind that *The Social Network* was initially developed in that same PHP. But as they started growing and feeling glitch using it; seeing that the `:santa:` was not coming to help them, they attempted building something on their own. Finally today, we know the inventions as [HHVM](http://hhvm.com/) and [Hack language](http://hacklang.org/).
+Maybe that you take PHP as *a language for the kids* but keep in mind that *The Social Network* was initially developed in that same PHP. But as they started growing and feeling glitch using it; seeing that the <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f385.png" width="20" height="20" alt="santa" /> was not coming to help them, they attempted building something on their own. Finally today, we know the inventions as [HHVM](http://hhvm.com/) and [Hack language](http://hacklang.org/).
 
 So, the thing is *don't wait for santa and build cool things that matters*. Big organizations are already doing it, be it [hhvm](https://github.com/facebook/hhvm), [react](https://github.com/facebook/react) by Facebook or [typeahead.js](https://github.com/twitter/typeahead.js) by Twitter or [web-starter-kit](https://github.com/google/web-starter-kit) by Google and many more by others.
 
@@ -236,7 +240,7 @@ Here we can see that Flipkart's stack includes things related to distributed com
 
 ---
 
-So, this is it. Open Source Presence Infographic of Indian Startups. `:octocat:`.
+So, this is it. Open Source Presence Infographic of Indian Startups. <img src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" width="20" height="20" alt="octocat" />.
 
 If you're thinking that *santa* helped me in all this; then you are wrong, my friend.
 I was all alone everytime, thinking about it, collecting the data, managing R source files in Rstudio, writing Python for it and all that.
